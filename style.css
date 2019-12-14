@@ -13,3 +13,14 @@
 /* line 1, assets/sass/_colours-retouching.scss */
 .site-header .site-header-bg {
   background-color: #4FB59B; }
+
+/* line 3, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-branding {
+  margin-bottom: 20px; }
+/* line 6, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-title {
+  font-size: 3rem;
+  line-height: 1.5; }
+/* line 10, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-description {
+  font-size: 1.2rem; }
