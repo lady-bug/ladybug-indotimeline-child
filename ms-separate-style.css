@@ -1,5 +1,26 @@
 /*
-CTC Separate Stylesheet
-Updated: 2019-12-14 09:20:42
-*/
+***************************************************************************************
+ * Theme Name:      ladybug-indotimeline-child
+ * Description:     A free Creative Timeline Wordpress Child Themes, Clean then responsive
+ * Template:        indotimeline
+ * Author:          Valerie Hanesse
+ * Author URI:      http://www.lady-bug.info/
+ * Version:         1.0
+ * License:         GNU General Public License v3.0
+ * License URI:     http://www.gnu.org/licenses/gpl-3.0.html
+***************************************************************************************
+ */
+/* line 1, assets/sass/_colours-retouching.scss */
+.site-header .site-header-bg {
+  background-color: #4FB59B; }
 
+/* line 3, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-branding {
+  margin-bottom: 20px; }
+/* line 6, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-title {
+  font-size: 3rem;
+  line-height: 1.5; }
+/* line 10, assets/sass/_sizes-retouching.scss */
+.site-header .site-header-content .site-description {
+  font-size: 1.2rem; }
