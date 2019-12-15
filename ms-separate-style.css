@@ -82,7 +82,7 @@ a:active {
 .timeline-loader-icon {
   color: #F26A82; }
 
-/* line 1, assets/sass/_sizes-override.scss */
+/* line 1, assets/sass/_displays-override.scss */
 .sr-only {
   border: 0;
   clip: rect(0 0 0 0);
@@ -93,22 +93,22 @@ a:active {
   position: absolute;
   width: 1px; }
 
-/* line 15, assets/sass/_sizes-override.scss */
+/* line 15, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
-/* line 18, assets/sass/_sizes-override.scss */
+/* line 18, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-title {
   font-size: 3rem;
   line-height: 1.5; }
-/* line 22, assets/sass/_sizes-override.scss */
+/* line 22, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-description {
   font-size: 1.2rem; }
 
-/* line 29, assets/sass/_sizes-override.scss */
+/* line 29, assets/sass/_displays-override.scss */
 .timeline-line {
   width: 3px; }
 
-/* line 34, assets/sass/_sizes-override.scss */
+/* line 34, assets/sass/_displays-override.scss */
 .timeline-list .hentry .entry-media a img {
   text-align: center;
   margin: 0 auto; }
