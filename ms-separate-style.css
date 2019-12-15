@@ -82,22 +82,33 @@ a:active {
 .timeline-loader-icon {
   color: #F26A82; }
 
-/* line 4, assets/sass/_sizes-override.scss */
+/* line 1, assets/sass/_sizes-override.scss */
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 15, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
-/* line 7, assets/sass/_sizes-override.scss */
+/* line 18, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-title {
   font-size: 3rem;
   line-height: 1.5; }
-/* line 11, assets/sass/_sizes-override.scss */
+/* line 22, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-description {
   font-size: 1.2rem; }
 
-/* line 18, assets/sass/_sizes-override.scss */
+/* line 29, assets/sass/_sizes-override.scss */
 .timeline-line {
   width: 3px; }
 
-/* line 23, assets/sass/_sizes-override.scss */
+/* line 34, assets/sass/_sizes-override.scss */
 .timeline-list .hentry .entry-media a img {
   text-align: center;
   margin: 0 auto; }
