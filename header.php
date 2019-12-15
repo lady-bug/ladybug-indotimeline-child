@@ -67,6 +67,13 @@
 					<?php if ( !is_singular() && !is_404() ) : ?>
 
 						<div class="social-media float-left">
+
+							<div class="social-icon">
+									<a href="/" class="inline-block social-icon-in bug">
+										<i class="ionicons ion-bug itl-fz-20"></i>
+									</a>
+							</div>
+
 								<div class="social-icon">
 										<a href="https://www.linkedin.com/in/lady-bug/" class="inline-block social-icon-in linkedin">
 											<i class="ionicons ion-social-linkedin itl-fz-20"></i>
@@ -78,7 +85,7 @@
 										</a>
 								</div>
 							</div>
-							
+
 						<?php
 
 						$indotimeline_social_media_facebook = indotimeline_options('social_media_facebook');

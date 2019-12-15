@@ -12,7 +12,15 @@ body {
 .social-icon-in {
 	margin: 0 11px;
 	&.linkedin,
-	&.github {
+	&.github{
 		background-color: $color-secondary-1-4;
+	}
+	&.bug {
+		background-color: white;
+		border: 1px solid $color-secondary-1-4;
+
+		i {
+			color: $color-secondary-1-4;
+		}
 	}
 }
