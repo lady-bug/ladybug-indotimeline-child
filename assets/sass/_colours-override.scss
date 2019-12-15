@@ -28,3 +28,43 @@ body {
 		}
 	}
 }
+
+//LINKS
+a {
+  color: $color-secondary-1-4;
+}
+a:visited {
+  color: $color-secondary-1-4;
+}
+a:hover,
+a:focus,
+a:active {
+  color: $color-secondary-1-4-hover;
+}
+.post-bottom a:hover,
+.post-bottom a:link:hover {
+  color: $color-secondary-1-4-hover;
+}
+.posts-navigation a,
+.posts-navigation a:link,
+.post-navigation a,
+.post-navigation a:link {
+  background-color: $color-secondary-1-4;
+}
+
+.posts-navigation a:hover,
+.posts-navigation a:visited,
+.posts-navigation a:link:hover,
+.posts-navigation a:link:visited,
+.post-navigation a:hover,
+.post-navigation a:visited,
+.post-navigation a:link:hover,
+.post-navigation a:link:visited {
+  background-color: $color-secondary-1-4-hover;
+}
+
+
+//TITLE LINKS
+.hentry .entry-title:after{
+	background-color: $color-secondary-1-4;
+}

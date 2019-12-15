@@ -37,6 +37,47 @@ body {
     .social-icon-in.bug i {
       color: #DD9420; }
 
+/* line 33, assets/sass/_colours-override.scss */
+a {
+  color: #DD9420; }
+
+/* line 36, assets/sass/_colours-override.scss */
+a:visited {
+  color: #DD9420; }
+
+/* line 39, assets/sass/_colours-override.scss */
+a:hover,
+a:focus,
+a:active {
+  color: #B37819; }
+
+/* line 44, assets/sass/_colours-override.scss */
+.post-bottom a:hover,
+.post-bottom a:link:hover {
+  color: #B37819; }
+
+/* line 48, assets/sass/_colours-override.scss */
+.posts-navigation a,
+.posts-navigation a:link,
+.post-navigation a,
+.post-navigation a:link {
+  background-color: #DD9420; }
+
+/* line 55, assets/sass/_colours-override.scss */
+.posts-navigation a:hover,
+.posts-navigation a:visited,
+.posts-navigation a:link:hover,
+.posts-navigation a:link:visited,
+.post-navigation a:hover,
+.post-navigation a:visited,
+.post-navigation a:link:hover,
+.post-navigation a:link:visited {
+  background-color: #B37819; }
+
+/* line 68, assets/sass/_colours-override.scss */
+.hentry .entry-title:after {
+  background-color: #DD9420; }
+
 /* line 4, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }

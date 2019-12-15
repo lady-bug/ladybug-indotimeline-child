@@ -19,6 +19,8 @@ $color-secondary-1-2: #FFD694;
 $color-secondary-1-3: #F1B24B;
 $color-secondary-1-4: #DD9420;
 
+$color-secondary-1-4-hover: #B37819;
+
 $color-secondary-2-0: #F26A82;	// Main Secondary color (2) */
 $color-secondary-2-1: #FBBDC8;
 $color-secondary-2-2: #F790A2;
@@ -30,7 +32,7 @@ $color-secondary-2-4: #CF1E3D;
 // As RGBa codes */
 
 $rgba-primary-0: rgba( 79,181,155,1);	// Main Primary color */
-$rgba-primary-0-alpha-01: rgba( 79,181,155,.1);	
+$rgba-primary-0-alpha-01: rgba( 79,181,155,.1);
 $rgba-primary-1: rgba(176,234,219,1);
 $rgba-primary-2: rgba(122,209,187,1);
 $rgba-primary-3: rgba( 49,157,130,1);
@@ -41,6 +43,8 @@ $rgba-secondary-1-1: rgba(255,231,192,1);
 $rgba-secondary-1-2: rgba(255,214,148,1);
 $rgba-secondary-1-3: rgba(241,178, 75,1);
 $rgba-secondary-1-4: rgba(221,148, 32,1);
+
+$rgba-secondary-1-4-hover: rgba(179, 120, 25,1);
 
 $rgba-secondary-2-0: rgba(242,106,130,1);	// Main Secondary color (2) */
 $rgba-secondary-2-1: rgba(251,189,200,1);
