@@ -44,7 +44,7 @@
 				<?php endif; ?>
 			</header><!-- .entry-header -->
 
-			<?php indotimeline_post_thumbnail();
+			<?php //indotimeline_post_thumbnail();
 
 			?>
 
