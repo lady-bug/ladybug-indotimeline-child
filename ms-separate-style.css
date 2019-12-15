@@ -110,6 +110,11 @@ a:active {
 .timeline-loader-icon {
   color: #F26A82; }
 
+/* line 100, assets/sass/_colours-override.scss */
+.timeline-header-inner {
+  background-color: #4FB59B;
+  border-width: 2px; }
+
 /* line 1, assets/sass/_displays-override.scss */
 .sr-only {
   border: 0;

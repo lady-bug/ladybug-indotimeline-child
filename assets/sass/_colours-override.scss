@@ -93,7 +93,11 @@ a:active {
 .timeline-list .hentry .entry-title:after{
 	background-color: $color-secondary-1-4;
 }
-//TIMELINE LOADER
+//TIMELINE
 .timeline-loader-icon {
 	color: $color-secondary-2-0;
+}
+.timeline-header-inner {
+	background-color: $color-primary-0;
+	border-width: 2px;
 }
