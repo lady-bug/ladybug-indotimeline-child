@@ -12,17 +12,20 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('js_post'); ?>>
 
 	<div class="post-inner">
-	
+		<?php
+		/*
 		<div class="post-top">
 			<div class="post-top-inner">
 				<div class="post-author">
-					<?php indotimeline_posted_by(); ?>
+					 indotimeline_posted_by();
 				</div>
 				<div class="post-date">
-					<?php indotimeline_posted_on(); ?>
+					indotimeline_posted_on();
 				</div>
 			</div>
 		</div>
+		*/
+		?>
 		<!-- .post-top -->
 
 		<div class="post-middle">
