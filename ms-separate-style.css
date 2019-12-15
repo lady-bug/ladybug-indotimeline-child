@@ -78,6 +78,10 @@ a:active {
 .hentry .entry-title:after {
   background-color: #DD9420; }
 
+/* line 73, assets/sass/_colours-override.scss */
+.timeline-loader-icon {
+  color: #F26A82; }
+
 /* line 4, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
