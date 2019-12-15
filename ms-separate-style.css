@@ -153,7 +153,10 @@ a:active {
 /* line 34, assets/sass/_displays-override.scss */
 .timeline-list .hentry .entry-media a img {
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-height: 250px;
+  height: auto;
+  width: auto; }
 
 /* line 1, assets/sass/_shadows-override.scss */
 .hentry .post-middle {
