@@ -10,21 +10,21 @@
  * License URI:     http://www.gnu.org/licenses/gpl-3.0.html
 ***************************************************************************************
  */
-/* line 1, assets/sass/_colours-retouching.scss */
+/* line 1, assets/sass/_colours-override.scss */
 .site-header .site-header-bg {
   background-color: #FFE7C0; }
 
-/* line 4, assets/sass/_colours-retouching.scss */
+/* line 4, assets/sass/_colours-override.scss */
 body {
   background-color: #B0EADB; }
 
-/* line 3, assets/sass/_sizes-retouching.scss */
+/* line 3, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
-/* line 6, assets/sass/_sizes-retouching.scss */
+/* line 6, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-title {
   font-size: 3rem;
   line-height: 1.5; }
-/* line 10, assets/sass/_sizes-retouching.scss */
+/* line 10, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-description {
   font-size: 1.2rem; }
