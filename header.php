@@ -66,7 +66,7 @@
 					//</div>
 					?>
 
-					<?php if ( !is_singular() && !is_404() ) : ?>
+
 
 						<div class="social-media float-left">
 
@@ -133,7 +133,7 @@
 								</div>
 							</div>
 						<?php endif ; ?>
-					<?php endif ; ?>
+
 
 					<?php
 					//<div class="float-right">
