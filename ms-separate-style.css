@@ -74,11 +74,20 @@ a:active {
 .post-navigation a:link:visited {
   background-color: #B37819; }
 
-/* line 68, assets/sass/_colours-override.scss */
+/* line 67, assets/sass/_colours-override.scss */
 .hentry .entry-title:after {
+  background-color: #4FB59B; }
+
+/* line 70, assets/sass/_colours-override.scss */
+.widget .widgettitle,
+.widget .widget-title {
+  border-left-color: #4FB59B; }
+
+/* line 76, assets/sass/_colours-override.scss */
+.timeline-list .hentry .entry-title:after {
   background-color: #DD9420; }
 
-/* line 73, assets/sass/_colours-override.scss */
+/* line 80, assets/sass/_colours-override.scss */
 .timeline-loader-icon {
   color: #F26A82; }
 

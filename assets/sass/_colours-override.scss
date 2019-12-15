@@ -63,12 +63,19 @@ a:active {
   background-color: $color-secondary-1-4-hover;
 }
 
-
-//TITLE LINKS
+//TITLE
 .hentry .entry-title:after{
-	background-color: $color-secondary-1-4;
+	background-color: $color-primary-0;
+}
+.widget .widgettitle,
+.widget .widget-title {
+  border-left-color: $color-primary-0;
 }
 
+//TITLE LINKS
+.timeline-list .hentry .entry-title:after{
+	background-color: $color-secondary-1-4;
+}
 //TIMELINE LOADER
 .timeline-loader-icon {
 	color: $color-secondary-2-0;
