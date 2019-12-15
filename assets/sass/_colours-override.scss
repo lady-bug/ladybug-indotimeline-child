@@ -1,10 +1,14 @@
-.site-header .site-header-bg{
-	background-color: $color-secondary-1-1;
-}
+//BODY
 body {
 	background-color: $color-primary-1;
 }
 
+//HEADER
+.site-header .site-header-bg{
+	background-color: $color-secondary-1-1;
+}
+
+//ICONS
 .social-icon{
 	width: 50px;
 	text-align: center;
