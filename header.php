@@ -77,12 +77,12 @@
 							</div>
 
 								<div class="social-icon">
-										<a href="https://www.linkedin.com/in/lady-bug/" class="inline-block social-icon-in linkedin">
+										<a href="https://www.linkedin.com/in/lady-bug/" class="inline-block social-icon-in linkedin" target="_blank">
 											<i class="ionicons ion-social-linkedin itl-fz-20"></i>
 										</a>
 								</div>
 								<div class="social-icon">
-										<a href="https://github.com/lady-bug" class="inline-block social-icon-in github">
+										<a href="https://github.com/lady-bug" class="inline-block social-icon-in github" target="_blank">
 											<i class="ionicons ion-social-github itl-fz-20"></i>
 										</a>
 								</div>

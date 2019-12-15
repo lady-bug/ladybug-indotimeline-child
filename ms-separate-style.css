@@ -61,9 +61,10 @@ a:active {
 .posts-navigation a:link,
 .post-navigation a,
 .post-navigation a:link {
+  color: white;
   background-color: #DD9420; }
 
-/* line 55, assets/sass/_colours-override.scss */
+/* line 56, assets/sass/_colours-override.scss */
 .posts-navigation a:hover,
 .posts-navigation a:visited,
 .posts-navigation a:link:hover,
@@ -74,7 +75,7 @@ a:active {
 .post-navigation a:link:visited {
   background-color: #B37819; }
 
-/* line 65, assets/sass/_colours-override.scss */
+/* line 66, assets/sass/_colours-override.scss */
 .link-inherit a:hover,
 .site-footer .site-info a:hover,
 .main-navigation a:hover,
@@ -93,34 +94,34 @@ a:active {
 .widget a:link:visited {
   color: #B37819; }
 
-/* line 84, assets/sass/_colours-override.scss */
+/* line 85, assets/sass/_colours-override.scss */
 .hentry .entry-title:after {
   background-color: #4FB59B; }
 
-/* line 87, assets/sass/_colours-override.scss */
+/* line 88, assets/sass/_colours-override.scss */
 .widget .widgettitle,
 .widget .widget-title {
   border-left-color: #4FB59B; }
 
-/* line 93, assets/sass/_colours-override.scss */
+/* line 94, assets/sass/_colours-override.scss */
 .timeline-list .hentry .entry-title:after {
   background-color: #DD9420; }
 
-/* line 97, assets/sass/_colours-override.scss */
+/* line 98, assets/sass/_colours-override.scss */
 .timeline-loader-icon {
   color: #F26A82; }
 
-/* line 100, assets/sass/_colours-override.scss */
+/* line 101, assets/sass/_colours-override.scss */
 .timeline-header-inner {
   background-color: #4FB59B;
   border-width: 2px; }
 
-/* line 106, assets/sass/_colours-override.scss */
+/* line 107, assets/sass/_colours-override.scss */
 ::-moz-selection {
   /* Code for Firefox */
   background: #F790A2; }
 
-/* line 110, assets/sass/_colours-override.scss */
+/* line 111, assets/sass/_colours-override.scss */
 ::selection {
   background: #F790A2; }
 
