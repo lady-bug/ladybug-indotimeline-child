@@ -74,20 +74,39 @@ a:active {
 .post-navigation a:link:visited {
   background-color: #B37819; }
 
-/* line 67, assets/sass/_colours-override.scss */
+/* line 65, assets/sass/_colours-override.scss */
+.link-inherit a:hover,
+.site-footer .site-info a:hover,
+.main-navigation a:hover,
+.widget a:hover,
+.link-inherit a:visited,
+.site-footer .site-info a:visited,
+.main-navigation a:visited,
+.widget a:visited,
+.link-inherit a:link:hover,
+.site-footer .site-info a:link:hover,
+.main-navigation a:link:hover,
+.widget a:link:hover,
+.link-inherit a:link:visited,
+.site-footer .site-info a:link:visited,
+.main-navigation a:link:visited,
+.widget a:link:visited {
+  color: #B37819; }
+
+/* line 84, assets/sass/_colours-override.scss */
 .hentry .entry-title:after {
   background-color: #4FB59B; }
 
-/* line 70, assets/sass/_colours-override.scss */
+/* line 87, assets/sass/_colours-override.scss */
 .widget .widgettitle,
 .widget .widget-title {
   border-left-color: #4FB59B; }
 
-/* line 76, assets/sass/_colours-override.scss */
+/* line 93, assets/sass/_colours-override.scss */
 .timeline-list .hentry .entry-title:after {
   background-color: #DD9420; }
 
-/* line 80, assets/sass/_colours-override.scss */
+/* line 97, assets/sass/_colours-override.scss */
 .timeline-loader-icon {
   color: #F26A82; }
 
