@@ -97,6 +97,11 @@ a:active {
 .timeline-line {
   width: 3px; }
 
+/* line 23, assets/sass/_sizes-override.scss */
+.timeline-list .hentry .entry-media a img {
+  text-align: center;
+  margin: 0 auto; }
+
 /* line 1, assets/sass/_shadows-override.scss */
 .hentry .post-middle {
   -webkit-box-shadow: none;
