@@ -65,6 +65,20 @@
 					</div>
 
 					<?php if ( !is_singular() && !is_404() ) : ?>
+
+						<div class="social-media float-left">
+								<div class="social-icon">
+										<a href="https://www.linkedin.com/in/lady-bug/" class="inline-block social-icon-in linkedin">
+											<i class="ionicons ion-social-linkedin itl-fz-20"></i>
+										</a>
+								</div>
+								<div class="social-icon">
+										<a href="https://github.com/lady-bug" class="inline-block social-icon-in github">
+											<i class="ionicons ion-social-github itl-fz-20"></i>
+										</a>
+								</div>
+							</div>
+							
 						<?php
 
 						$indotimeline_social_media_facebook = indotimeline_options('social_media_facebook');
@@ -146,9 +160,9 @@
 					<i class="ionicons icon-now ion-ios-search-strong itl-fz-28"></i>
 					<i class="ionicons icon-gost ion-close itl-fz-22"></i>
 				</div>
-				
+
 			</div>
-			
+
 		</nav><!-- #site-navigation -->
 
 	</div>

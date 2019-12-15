@@ -18,6 +18,18 @@
 body {
   background-color: #B0EADB; }
 
+/* line 8, assets/sass/_colours-override.scss */
+.social-icon {
+  width: 50px;
+  text-align: center; }
+
+/* line 12, assets/sass/_colours-override.scss */
+.social-icon-in {
+  margin: 0 11px; }
+  /* line 14, assets/sass/_colours-override.scss */
+  .social-icon-in.linkedin, .social-icon-in.github {
+    background-color: #DD9420; }
+
 /* line 3, assets/sass/_sizes-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }

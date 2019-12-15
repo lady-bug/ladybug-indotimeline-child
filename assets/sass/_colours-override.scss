@@ -4,3 +4,15 @@
 body {
 	background-color: $color-primary-1;
 }
+
+.social-icon{
+	width: 50px;
+	text-align: center;
+}
+.social-icon-in {
+	margin: 0 11px;
+	&.linkedin,
+	&.github {
+		background-color: $color-secondary-1-4;
+	}
+}
