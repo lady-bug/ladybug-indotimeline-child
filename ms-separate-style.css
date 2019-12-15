@@ -14,6 +14,10 @@
 .site-header .site-header-bg {
   background-color: #FFE7C0; }
 
+/* line 4, assets/sass/_colours-retouching.scss */
+body {
+  background-color: #B0EADB; }
+
 /* line 3, assets/sass/_sizes-retouching.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
