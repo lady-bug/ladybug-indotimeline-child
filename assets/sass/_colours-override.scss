@@ -101,3 +101,12 @@ a:active {
 	background-color: $color-primary-0;
 	border-width: 2px;
 }
+
+//TEXT SELECTION
+::-moz-selection {
+  /* Code for Firefox */
+  background: $color-secondary-2-2;
+}
+::selection {
+	background: $color-secondary-2-2;
+}

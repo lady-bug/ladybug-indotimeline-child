@@ -115,6 +115,15 @@ a:active {
   background-color: #4FB59B;
   border-width: 2px; }
 
+/* line 106, assets/sass/_colours-override.scss */
+::-moz-selection {
+  /* Code for Firefox */
+  background: #F790A2; }
+
+/* line 110, assets/sass/_colours-override.scss */
+::selection {
+  background: #F790A2; }
+
 /* line 1, assets/sass/_displays-override.scss */
 .sr-only {
   border: 0;
