@@ -17,6 +17,8 @@
 //  _name-file.scss won't be compiled, only ms-separate-style.scss will be parsed
 // @import "_name-file";
 
+$mqs: true;
+@import "_mediaqueries";
 @import "_variables";
 @import "_colours-override";
 @import "_displays-override";

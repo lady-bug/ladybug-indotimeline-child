@@ -1,0 +1,40 @@
+/*
+ * BREAKPOINTS
+******************************************************/
+$breakpoints:(
+    xxs:20em,   //320
+    xs: 40em,   //640
+    s:  48em,   //768
+    m:  60em,   //960
+    xm: 64em,   //1024
+    l:  80em,   //1280
+    xl: 90em    //1440
+);
+
+/*
+ * MEDIAQUERIES
+******************************************************/
+@mixin respond-to($breakpoint){
+    // Retrieves the value from the key
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if($mqs){
+        // If the key exists in the map
+        @if ($value != null) {
+          // Prints a media query based on the value
+          @media only screen and (min-device-width:$value) and (min-width:$value),
+            only screen and (min-device-width:$value) and (min-width:$value) and (min-aspect-ratio: 1/1)/*landscape*/{
+                @content;
+            }
+          }
+
+        // If the key doesn't exist in the map
+        @else {
+          @warn "Unfortunately, no value could be retrieved from '#{$breakpoint}'. "
+              + "Please make sure it is defined in '$breakpoints' map.";
+        }
+    }
+    @else{
+        @content;
+    }
+}

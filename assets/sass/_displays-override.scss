@@ -20,7 +20,7 @@
 			line-height: 1.5;
 	}
 	.site-description {
-	    font-size: 2.5rem;
+	    font-size: 2rem;
 	}
 
 }
@@ -37,4 +37,14 @@
   max-height: 250px;
   height: auto;
   width: auto;
+}
+@include respond-to(s) {
+  //HEADER
+  .site-header .site-header-content {
+
+  	.site-description {
+  	    font-size: 2.5rem;
+  	}
+
+  }
 }
