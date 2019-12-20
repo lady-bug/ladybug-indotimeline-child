@@ -59,13 +59,11 @@
 		<div class="navbar-header">
 			<div class="navbar-header-inner">
 				<div class="container clearfix">
-					<?php
-					//<div class="navbar-btn nav-widget float-left js_sidebar_action">
-					//	<i class="ionicons icon-now ion-ios-keypad itl-fz-26"></i>
-					//	<i class="ionicons icon-gost ion-close itl-fz-23"></i>
-					//</div>
-					?>
 
+					<div class="navbar-btn nav-widget float-left js_sidebar_action">
+						<i class="ionicons icon-now ion-ios-keypad itl-fz-26"></i>
+						<i class="ionicons icon-gost ion-close itl-fz-23"></i>
+					</div>
 
 
 						<div class="social-media float-left">
@@ -135,16 +133,15 @@
 						<?php endif ; ?>
 
 
-					<?php
-					//<div class="float-right">
+					<div class="float-right">
 
-					//	<div class="navbar-btn navigation-menu float-right js_navigation_action">
-					//		<i class="ionicons icon-now ion-navicon itl-fz-36"></i>
-					//		<i class="ionicons icon-gost ion-close itl-fz-23"></i>
-					//	</div>
+						<div class="navbar-btn navigation-menu float-right js_navigation_action">
+							<i class="ionicons icon-now ion-navicon itl-fz-36"></i>
+							<i class="ionicons icon-gost ion-close itl-fz-23"></i>
+						</div>
 
-					//</div>
-					?>
+					</div>
+
 				</div>
 			</div>
 

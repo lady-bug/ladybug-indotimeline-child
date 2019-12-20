@@ -20,8 +20,8 @@
 
 				if ( !dynamic_sidebar( 'sidebar-content' ) ) :
 
-					//the_widget('WP_Widget_Search', 'title= Search');
-					//the_widget('WP_Widget_Archives', 'title= Archives');
+					the_widget('WP_Widget_Search', 'title= Search');
+					the_widget('WP_Widget_Archives', 'title= Archives');
 					the_widget('WP_Widget_Categories', 'title= Categories');
 
 				endif; ?>
