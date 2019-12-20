@@ -50,10 +50,6 @@ body {
 a {
   color: #DD9420; }
 
-/* line 41, assets/sass/_colours-override.scss */
-a:visited {
-  color: #DD9420; }
-
 /* line 44, assets/sass/_colours-override.scss */
 a:hover,
 a:focus,
@@ -75,67 +71,63 @@ a:active {
 
 /* line 61, assets/sass/_colours-override.scss */
 .posts-navigation a:hover,
-.posts-navigation a:visited,
 .posts-navigation a:link:hover,
-.posts-navigation a:link:visited,
 .post-navigation a:hover,
-.post-navigation a:visited,
-.post-navigation a:link:hover,
-.post-navigation a:link:visited {
+.post-navigation a:link:hover {
   background-color: #B37819; }
 
-/* line 71, assets/sass/_colours-override.scss */
+/* line 68, assets/sass/_colours-override.scss */
+.posts-navigation a:visited,
+.posts-navigation a:link:visited,
+.post-navigation a:visited,
+.post-navigation a:link:visited {
+  background-color: #DD9420; }
+
+/* line 74, assets/sass/_colours-override.scss */
 .link-inherit a:hover,
 .site-footer .site-info a:hover,
 .main-navigation a:hover,
 .widget a:hover,
-.link-inherit a:visited,
-.site-footer .site-info a:visited,
-.main-navigation a:visited,
-.widget a:visited,
 .link-inherit a:link:hover,
 .site-footer .site-info a:link:hover,
 .main-navigation a:link:hover,
-.widget a:link:hover,
-.link-inherit a:link:visited,
-.site-footer .site-info a:link:visited,
-.main-navigation a:link:visited,
-.widget a:link:visited {
+.widget a:link:hover {
   color: #B37819; }
 
-/* line 90, assets/sass/_colours-override.scss */
+/* line 97, assets/sass/_colours-override.scss */
 .hentry .entry-title:after {
   background-color: #4FB59B; }
 
-/* line 93, assets/sass/_colours-override.scss */
+/* line 100, assets/sass/_colours-override.scss */
 .widget .widgettitle,
 .widget .widget-title {
   border-left-color: #4FB59B; }
 
-/* line 99, assets/sass/_colours-override.scss */
+/* line 106, assets/sass/_colours-override.scss */
 .timeline-list .hentry .entry-title:after {
   background-color: #DD9420; }
 
-/* line 103, assets/sass/_colours-override.scss */
+/* line 110, assets/sass/_colours-override.scss */
 .timeline-loader-icon {
   color: #F26A82; }
 
-/* line 106, assets/sass/_colours-override.scss */
+/* line 113, assets/sass/_colours-override.scss */
 .timeline-header-inner {
   background-color: #4FB59B;
   border-width: 2px; }
 
-/* line 112, assets/sass/_colours-override.scss */
+/* line 119, assets/sass/_colours-override.scss */
 ::-moz-selection {
   /* Code for Firefox */
   background: #F790A2; }
 
-/* line 116, assets/sass/_colours-override.scss */
+/* line 123, assets/sass/_colours-override.scss */
 ::selection {
   background: #F790A2; }
 
 /* line 1, assets/sass/_displays-override.scss */
-.sr-only {
+.sr-only,
+.amcharts-chart-div > a {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -145,22 +137,22 @@ a:active {
   position: absolute;
   width: 1px; }
 
-/* line 15, assets/sass/_displays-override.scss */
+/* line 16, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-branding {
   margin-bottom: 20px; }
-/* line 18, assets/sass/_displays-override.scss */
+/* line 19, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-title {
   font-size: 3rem;
   line-height: 1.5; }
-/* line 22, assets/sass/_displays-override.scss */
+/* line 23, assets/sass/_displays-override.scss */
 .site-header .site-header-content .site-description {
   font-size: 2rem; }
 
-/* line 29, assets/sass/_displays-override.scss */
+/* line 30, assets/sass/_displays-override.scss */
 .timeline-line {
   width: 3px; }
 
-/* line 34, assets/sass/_displays-override.scss */
+/* line 35, assets/sass/_displays-override.scss */
 .timeline-list .hentry .entry-media a img {
   text-align: center;
   margin: 0 auto;
@@ -169,7 +161,7 @@ a:active {
   width: auto; }
 
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 45, assets/sass/_displays-override.scss */
+  /* line 46, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
     font-size: 2.5rem; } }
 /* line 1, assets/sass/_shadows-override.scss */
