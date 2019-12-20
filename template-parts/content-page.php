@@ -12,7 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="post-inner">
-
+		<?php
+		/*
 		<div class="post-top">
 			<div class="post-top-inner">
 				<div class="post-author">
@@ -24,6 +25,8 @@
 			</div>
 		</div>
 		<!-- .post-top -->
+		*/
+		?>
 
 		<div class="post-middle">
 			<header class="entry-header">
