@@ -60,11 +60,12 @@
 			<div class="navbar-header-inner">
 				<div class="container clearfix">
 
+					<?php if ( is_active_sidebar( 'sidebar-fixed' ) )  : ?>
 					<div class="navbar-btn nav-widget float-left js_sidebar_action">
 						<i class="ionicons icon-now ion-ios-keypad itl-fz-26"></i>
 						<i class="ionicons icon-gost ion-close itl-fz-23"></i>
 					</div>
-
+					<?php endif ; ?>
 
 						<div class="social-media float-left">
 

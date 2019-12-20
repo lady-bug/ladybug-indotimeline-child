@@ -7,9 +7,9 @@
  * @package IndoTimeline
  */
 
-// if ( ! is_active_sidebar( 'sidebar-fixed' ) ) {
-// 	return;
-// }
+ if ( ! is_active_sidebar( 'sidebar-fixed' ) ) {
+ 	return;
+ }
 ?>
 
 <section class="sidebar sidebar-fixed link-inherit">
@@ -28,6 +28,6 @@
 			endif; ?>
 		</aside><!-- #secondary -->
 	</div>
-	
+
 </section>
 <!-- .sidebar -->
