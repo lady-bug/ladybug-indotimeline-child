@@ -14,4 +14,20 @@ endif;
 add_action( 'wp_enqueue_scripts', 'ms_theme_editor_child_css', 20 );
 
 // END ENQUEUE PARENT ACTION
+
+/**
+ * Adds custom classes to the array of body classes.
+ *
+ * @param array $classes Classes for the body element.
+ * @return array
+ */
+function ladybug_indotimeline_child_body_classes( $classes ) {
+
+	if( is_page( ) ) {
+		$classes[] = 'has-sidebar sidebar-right';
+	}
+
+	return $classes;
+}
+add_filter( 'body_class', 'ladybug_indotimeline_child_body_classes' );
 ?>
