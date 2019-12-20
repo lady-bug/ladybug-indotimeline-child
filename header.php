@@ -132,7 +132,7 @@
 							</div>
 						<?php endif ; ?>
 
-
+					<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 					<div class="float-right">
 
 						<div class="navbar-btn navigation-menu float-right js_navigation_action">
@@ -141,13 +141,14 @@
 						</div>
 
 					</div>
-
+					<?php endif ; ?>
 				</div>
 			</div>
 
 		</div>
 		<!-- .navbar-header -->
 
+		<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation site-navigation">
 			<div class="close-mobile-btn js_navigation_action">
 				<i class="ionicons icon-gost ion-close itl-fz-23"></i>
@@ -171,7 +172,9 @@
 
 			</div>
 
-		</nav><!-- #site-navigation -->
+		</nav>
+		<?php endif ; ?>
+		<!-- #site-navigation -->
 
 	</div>
 	<!-- .section-header-wrapper -->
