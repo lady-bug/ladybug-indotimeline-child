@@ -14,18 +14,19 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		
+
 		<div class="container">
 			<?php get_footer('widget'); ?>
 			<div class="site-info">
 				<span><?php echo esc_html__( 'Proudly powered by', 'indotimeline' ); ?></span>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'indotimeline' ) ); ?>">
+				<a target="_blank" href="<?php echo esc_url( __( 'https://wordpress.org/', 'indotimeline' ) ); ?>">
 					<?php echo esc_html__( 'WordPress', 'indotimeline' ); ?>
 				</a>
-				<span class="sep"> | </span>
+
 					<?php
+					//<span class="sep"> | </span>
 					/* translators: 1: Theme name, 2: Theme author. */
-					printf( esc_html__( 'Theme: %1$s by %2$s.', 'indotimeline' ), 'IndoTimeline', '<a href="http://indodevapps.com">IndoDevApps</a>' );
+					//printf( esc_html__( 'Theme: %1$s by %2$s.', 'indotimeline' ), 'IndoTimeline', '<a href="http://indodevapps.com">IndoDevApps</a>' );
 					?>
 			</div><!-- .site-info -->
 		</div>
