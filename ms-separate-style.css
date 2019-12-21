@@ -160,10 +160,25 @@ a:active {
   height: auto;
   width: auto; }
 
+/* line 44, assets/sass/_displays-override.scss */
+.first-column-75 > .wp-block-column:nth-of-type(2) {
+  margin-right: 0;
+  margin-left: 0; }
+
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 46, assets/sass/_displays-override.scss */
+  /* line 52, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+
+  /* line 58, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:first-of-type {
+    max-width: 75px; }
+  /* line 61, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:not(:first-of-type) {
+    margin-top: 1rem; }
+  /* line 64, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:last-of-type {
+    max-width: 30px; } }
 /* line 1, assets/sass/_shadows-override.scss */
 .hentry .post-middle {
   -webkit-box-shadow: none;
@@ -182,3 +197,49 @@ a:active {
 .comments-area {
   -webkit-box-shadow: 0 4px 14px 0 rgba(79, 181, 155, 0.1);
   box-shadow: 0 4px 14px 0 rgba(79, 181, 155, 0.1); }
+
+/* line 2, assets/sass/_custom-display.scss */
+.evaluation span {
+  display: block;
+  width: 30px;
+  height: 13px;
+  margin-top: 2px;
+  background-color: #ed735d; }
+  /* line 9, assets/sass/_custom-display.scss */
+  .evaluation span.off {
+    background-color: #ebb0a0; }
+/* line 14, assets/sass/_custom-display.scss */
+.evaluation.evaluation-softwares span {
+  background-color: #f4d363; }
+  /* line 17, assets/sass/_custom-display.scss */
+  .evaluation.evaluation-softwares span.off {
+    background-color: #efe0a3; }
+/* line 23, assets/sass/_custom-display.scss */
+.evaluation.evaluation-cms span {
+  background-color: #17b0e1; }
+  /* line 26, assets/sass/_custom-display.scss */
+  .evaluation.evaluation-cms span.off {
+    background-color: #80cfe2; }
+/* line 32, assets/sass/_custom-display.scss */
+.evaluation.evaluation-be span {
+  background-color: #796bb0; }
+  /* line 35, assets/sass/_custom-display.scss */
+  .evaluation.evaluation-be span.off {
+    background-color: #b1acc9; }
+
+/* line 41, assets/sass/_custom-display.scss */
+.columns-skills {
+  position: relative; }
+  /* line 43, assets/sass/_custom-display.scss */
+  .columns-skills .evaluation {
+    position: absolute;
+    right: 0;
+    top: 1rem; }
+
+@media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
+  /* line 50, assets/sass/_custom-display.scss */
+  .columns-skills {
+    position: static; }
+    /* line 52, assets/sass/_custom-display.scss */
+    .columns-skills .evaluation {
+      position: static; } }

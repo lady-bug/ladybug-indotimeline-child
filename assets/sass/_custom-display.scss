@@ -1,0 +1,56 @@
+.evaluation {
+	span {
+		display: block;
+		width: 30px;
+		height: 13px;
+		margin-top: 2px;
+		background-color: #ed735d;
+
+		&.off {
+			background-color: #ebb0a0;
+		}
+	}
+	&.evaluation-softwares {
+		span {
+			background-color: #f4d363;
+
+			&.off {
+				background-color: #efe0a3;
+			}
+		}
+	}
+	&.evaluation-cms {
+		span {
+			background-color: #17b0e1;
+
+			&.off {
+				background-color: #80cfe2;
+			}
+		}
+	}
+	&.evaluation-be {
+		span {
+			background-color: #796bb0;
+
+			&.off {
+				background-color: #b1acc9;
+			}
+		}
+	}
+}
+.columns-skills {
+	position: relative;
+	.evaluation {
+		position: absolute;
+		right: 0;
+		top: 1rem;
+	}
+}
+@include respond-to(s) {
+	.columns-skills {
+		position: static;
+	.evaluation {
+		position: static;
+	}
+}
+}
