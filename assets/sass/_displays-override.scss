@@ -46,6 +46,18 @@
     margin-left: 0;
   }
 }
+
+
+@include respond-to(xs) {
+
+  //SIDEBAR RIGHT
+  .sidebar-right .side-content {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 3.3rem;
+  }
+}
+
 @include respond-to(s) {
   //HEADER
   .site-header .site-header-content {
