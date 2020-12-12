@@ -67,7 +67,7 @@
 					</div>
 					<?php endif ; ?>
 
-						<div class="social-media float-left">
+						<nav role="menubar" class="social-media float-left">
 
 							<div class="social-icon">
 									<a href="/" class="inline-block social-icon-in bug">
@@ -85,7 +85,7 @@
 											<i class="ionicons ion-social-github itl-fz-20"></i>
 										</a>
 								</div>
-							</div>
+							</nav>
 
 						<?php
 
