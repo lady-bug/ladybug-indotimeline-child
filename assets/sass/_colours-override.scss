@@ -46,6 +46,10 @@ a:focus,
 a:active {
   color: $color-secondary-1-4-hover;
 }
+.post-bottom a,
+.post-bottom a:link {
+	color: $color-secondary-1-4;
+}
 .post-bottom a:hover,
 .post-bottom a:link:hover {
   color: $color-secondary-1-4-hover;
