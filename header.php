@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'indotimeline' ); ?></a>
 
-	<div class="section-header-wrapper">
+	<section class="section-header-wrapper">
 
 		<?php if ( indotimeline_options('general_header_display') != "hide")  : ?>
 
@@ -177,7 +177,7 @@
 		<?php endif ; ?>
 		<!-- #site-navigation -->
 
-	</div>
+	</section>
 	<!-- .section-header-wrapper -->
 
 
