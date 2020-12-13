@@ -26,6 +26,13 @@
 
 }
 
+//SIDEBAR ON ELEMENTS
+.sidebar-right {
+  .main-content {
+    margin-right: 0;
+  }
+}
+
 //ENTRY TITLE
 .hentry .entry-header {
   padding:20px 0 0 0;
@@ -67,11 +74,23 @@
 
 @include respond-to(xs) {
 
-  //SIDEBAR RIGHT
-  .sidebar-right .side-content {
+  //SIDEBAR ON ELEMENTS
+  .sidebar-right {
+
+    .main-content{
+      margin-right: 2.5641%;
+    }
+
+    .side-content {
       position: -webkit-sticky;
       position: sticky;
       top: 3.3rem;
+    }
+
+    .widget-area {
+      margin-right: 0;
+    }
+
   }
 }
 
