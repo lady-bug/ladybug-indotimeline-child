@@ -36,7 +36,9 @@ body {
 
 //LINKS
 a,
-a:visited  {
+a:visited,
+a:link,
+a:link:visited {
   color: $color-secondary-1-4;
 }
 a:hover,
