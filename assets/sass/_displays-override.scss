@@ -26,6 +26,11 @@
 
 }
 
+//WIDGET LIST DISPPLAY
+.widget ul li:first-of-type {
+    padding-top: 0;
+}
+
 //SIDEBAR ON ELEMENTS
 .sidebar-right {
   .main-content {
