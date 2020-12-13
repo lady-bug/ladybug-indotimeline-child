@@ -56,6 +56,14 @@
   }
 }
 
+//LATEST POSTS
+.wp-block-latest-posts__featured-image{
+  height: 180px;
+  margin-bottom: 1em;
+  .wp-post-image{
+    max-height: 100%;
+  }
+}
 
 @include respond-to(xs) {
 
