@@ -100,10 +100,14 @@ a:active {
 //TITLE
 .hentry .entry-title:after{
 	background-color: $color-primary-0;
+	left: -20px;
+  right: auto;
 }
-.widget .widgettitle,
-.widget .widget-title {
-  border-left-color: $color-primary-0;
+.widget {
+	.widgettitle,
+	.widget-title {
+	  border-left-color: $color-primary-0;
+	}
 }
 
 //TITLE LINKS

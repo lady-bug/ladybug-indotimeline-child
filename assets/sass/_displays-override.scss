@@ -26,6 +26,15 @@
 
 }
 
+//ENTRY TITLE
+.hentry .entry-header {
+  padding:20px 0 0 0;
+  .entry-title {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 //TIMELINE
 .timeline-line {
 	width: 3px;
