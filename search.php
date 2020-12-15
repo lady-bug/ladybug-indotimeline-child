@@ -52,7 +52,7 @@ get_header();
 
 				</div>
 				<!-- .main-content -->
-				
+
 				<div class="side-content">
 					<?php // get_sidebar(); ?>
 				</div>
@@ -74,3 +74,4 @@ get_header();
 <?php
 get_sidebar('fixed');
 get_footer();
+?>
