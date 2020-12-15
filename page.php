@@ -54,3 +54,4 @@ get_header();
 <?php
 get_sidebar('fixed');
 get_footer();
+?>
