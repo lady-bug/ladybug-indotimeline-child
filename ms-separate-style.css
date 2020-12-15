@@ -166,19 +166,25 @@ a:active {
 .sidebar-right .main-content {
   margin-right: 0; }
 
-/* line 42, assets/sass/_displays-override.scss */
+/* line 41, assets/sass/_displays-override.scss */
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto; }
+
+/* line 48, assets/sass/_displays-override.scss */
 .hentry .entry-header {
   padding: 20px 0 0 0; }
-  /* line 44, assets/sass/_displays-override.scss */
+  /* line 50, assets/sass/_displays-override.scss */
   .hentry .entry-header .entry-title {
     padding: 0;
     margin-bottom: 1rem; }
 
-/* line 51, assets/sass/_displays-override.scss */
+/* line 57, assets/sass/_displays-override.scss */
 .timeline-line {
   width: 3px; }
 
-/* line 56, assets/sass/_displays-override.scss */
+/* line 62, assets/sass/_displays-override.scss */
 .timeline-list .hentry .entry-media a img {
   text-align: center;
   margin: 0 auto;
@@ -186,19 +192,19 @@ a:active {
   height: auto;
   width: auto; }
 
-/* line 65, assets/sass/_displays-override.scss */
+/* line 71, assets/sass/_displays-override.scss */
 .first-column-75 > .wp-block-column:nth-of-type(2) {
   margin-right: 0;
   margin-left: 0; }
 
-/* line 72, assets/sass/_displays-override.scss */
+/* line 78, assets/sass/_displays-override.scss */
 .wp-block-latest-posts__featured-image {
   height: 150px;
   margin-bottom: 1em;
   overflow: hidden;
   position: relative;
   text-align: center; }
-  /* line 78, assets/sass/_displays-override.scss */
+  /* line 84, assets/sass/_displays-override.scss */
   .wp-block-latest-posts__featured-image .wp-post-image {
     display: block;
     position: absolute;
@@ -207,29 +213,29 @@ a:active {
     margin: auto; }
 
 @media only screen and (min-device-width: 40em) and (min-width: 40em), only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
-  /* line 92, assets/sass/_displays-override.scss */
+  /* line 98, assets/sass/_displays-override.scss */
   .sidebar-right .main-content {
     margin-right: 2.5641%; }
-  /* line 96, assets/sass/_displays-override.scss */
+  /* line 102, assets/sass/_displays-override.scss */
   .sidebar-right .side-content {
     position: -webkit-sticky;
     position: sticky;
     top: 3.3rem; }
-  /* line 102, assets/sass/_displays-override.scss */
+  /* line 108, assets/sass/_displays-override.scss */
   .sidebar-right .widget-area {
     margin-right: 0; } }
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 112, assets/sass/_displays-override.scss */
+  /* line 118, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
     font-size: 2.5rem; }
 
-  /* line 118, assets/sass/_displays-override.scss */
+  /* line 124, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:first-of-type {
     max-width: 75px; }
-  /* line 121, assets/sass/_displays-override.scss */
+  /* line 127, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:not(:first-of-type) {
     margin-top: 1rem; }
-  /* line 124, assets/sass/_displays-override.scss */
+  /* line 130, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:last-of-type {
     max-width: 30px; } }
 /* line 1, assets/sass/_shadows-override.scss */
