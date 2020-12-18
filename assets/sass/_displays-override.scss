@@ -32,19 +32,30 @@ p {
 }
 
 //HEADER
-.site-header .site-header-content {
+.site-header {
+  height: 5rem;
 
-	.site-branding {
-    margin-bottom: 20px;
-	}
-	.site-title {
-	    font-size: 3rem;
-			line-height: 1.5;
-	}
-	.site-description {
-	    font-size: 2rem;
-	}
+  .site-header-bg {
+    background-position: center -7rem !important;
+    background-size: 100% auto;
+  }
 
+  .site-header-content {
+
+  	.site-branding {
+      margin-bottom: 0.5rem;
+  	}
+
+  	.site-title {
+  	    font-size: 3rem;
+  			line-height: 1.5;
+  	}
+
+  	.site-description {
+  	    font-size: 2rem;
+  	}
+
+  }
 }
 
 //WIDGET LIST DISPPLAY
@@ -270,6 +281,14 @@ p {
     > .wp-block-column:last-of-type {
       max-width: 30px;
     }
+  }
+
+}
+
+@include respond-to(xm) {
+  //HEADER
+  .site-header {
+    height: 10rem;;
   }
 
 }
