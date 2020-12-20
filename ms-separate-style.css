@@ -16,6 +16,18 @@
 /*
  * MEDIAQUERIES
 ******************************************************/
+/* line 4, assets/sass/_placeholders.scss */
+.post-navigation a, .display-posts-listing article .excerpt .excerpt-more,
+.display-posts-listing article .excerpt .excerpt-more:link, .post-navigation a:link, .display-posts-listing article .excerpt .excerpt-more:link, .post-navigation a:visited, .display-posts-listing article .excerpt .excerpt-more:visited {
+  display: inline-block;
+  background-color: #DD9420;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem; }
+  /* line 13, assets/sass/_placeholders.scss */
+  .post-navigation a:hover, .display-posts-listing article .excerpt .excerpt-more:hover, .post-navigation a:focus, .display-posts-listing article .excerpt .excerpt-more:focus, .post-navigation a:active, .display-posts-listing article .excerpt .excerpt-more:active, .post-navigation a:link:hover, .display-posts-listing article .excerpt .excerpt-more:link:hover, .post-navigation a:link:focus, .display-posts-listing article .excerpt .excerpt-more:link:focus, .post-navigation a:link:active, .display-posts-listing article .excerpt .excerpt-more:link:active, .post-navigation a:visited:hover, .display-posts-listing article .excerpt .excerpt-more:visited:hover, .post-navigation a:visited:focus, .display-posts-listing article .excerpt .excerpt-more:visited:focus, .post-navigation a:visited:active, .display-posts-listing article .excerpt .excerpt-more:visited:active {
+    background-color: #B37819; }
+
 /* line 2, assets/sass/_colours-override.scss */
 body {
   background-color: #B0EADB; }
@@ -69,29 +81,7 @@ a:active {
 .post-bottom a:link:hover {
   color: #B37819; }
 
-/* line 57, assets/sass/_colours-override.scss */
-.posts-navigation a,
-.posts-navigation a:link,
-.post-navigation a,
-.post-navigation a:link {
-  color: white;
-  background-color: #DD9420; }
-
-/* line 65, assets/sass/_colours-override.scss */
-.posts-navigation a:hover,
-.posts-navigation a:link:hover,
-.post-navigation a:hover,
-.post-navigation a:link:hover {
-  background-color: #B37819; }
-
-/* line 72, assets/sass/_colours-override.scss */
-.posts-navigation a:visited,
-.posts-navigation a:link:visited,
-.post-navigation a:visited,
-.post-navigation a:link:visited {
-  background-color: #DD9420; }
-
-/* line 78, assets/sass/_colours-override.scss */
+/* line 62, assets/sass/_colours-override.scss */
 .link-inherit a:hover,
 .site-footer .site-info a:hover,
 .main-navigation a:hover,
@@ -102,36 +92,36 @@ a:active {
 .widget a:link:hover {
   color: #B37819; }
 
-/* line 101, assets/sass/_colours-override.scss */
+/* line 85, assets/sass/_colours-override.scss */
 .hentry .entry-title:after {
   background-color: #4FB59B;
   left: -20px;
   right: auto; }
 
-/* line 107, assets/sass/_colours-override.scss */
+/* line 91, assets/sass/_colours-override.scss */
 .widget .widgettitle,
 .widget .widget-title {
   border-left-color: #4FB59B; }
 
-/* line 114, assets/sass/_colours-override.scss */
+/* line 98, assets/sass/_colours-override.scss */
 .timeline-list .hentry .entry-title:after {
   background-color: #DD9420; }
 
-/* line 118, assets/sass/_colours-override.scss */
+/* line 102, assets/sass/_colours-override.scss */
 .timeline-loader-icon {
   color: #F26A82; }
 
-/* line 121, assets/sass/_colours-override.scss */
+/* line 105, assets/sass/_colours-override.scss */
 .timeline-header-inner {
   background-color: #4FB59B;
   border-width: 2px; }
 
-/* line 127, assets/sass/_colours-override.scss */
+/* line 111, assets/sass/_colours-override.scss */
 ::-moz-selection {
   /* Code for Firefox */
   background: #F790A2; }
 
-/* line 131, assets/sass/_colours-override.scss */
+/* line 115, assets/sass/_colours-override.scss */
 ::selection {
   background: #F790A2; }
 
@@ -271,30 +261,20 @@ p {
     /* line 160, assets/sass/_displays-override.scss */
     .display-posts-listing article .excerpt .excerpt-more,
     .display-posts-listing article .excerpt .excerpt-more:link {
-      display: inline-block;
-      background-color: #DD9420;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 1rem;
       position: absolute;
       bottom: 0;
       left: 1rem; }
-    /* line 172, assets/sass/_displays-override.scss */
-    .display-posts-listing article .excerpt .excerpt-more:hover,
-    .display-posts-listing article .excerpt .excerpt-more:focus,
-    .display-posts-listing article .excerpt .excerpt-more:active {
-      background-color: #B37819; }
 
 @media only screen and (min-device-width: 40em) and (min-width: 40em), only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
-  /* line 193, assets/sass/_displays-override.scss */
+  /* line 184, assets/sass/_displays-override.scss */
   .sidebar-right .main-content {
     margin-right: 2.5641%; }
-  /* line 197, assets/sass/_displays-override.scss */
+  /* line 188, assets/sass/_displays-override.scss */
   .sidebar-right .side-content {
     position: -webkit-sticky;
     position: sticky;
     top: 3.3rem; }
-  /* line 203, assets/sass/_displays-override.scss */
+  /* line 194, assets/sass/_displays-override.scss */
   .sidebar-right .widget-area {
     margin-right: 0; }
 
@@ -343,17 +323,17 @@ p {
       body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) .excerpt {
         grid-column: -2 / -3; } }
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 219, assets/sass/_displays-override.scss */
+  /* line 210, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
     font-size: 2.5rem; }
 
-  /* line 225, assets/sass/_displays-override.scss */
+  /* line 216, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:first-of-type {
     max-width: 75px; }
-  /* line 228, assets/sass/_displays-override.scss */
+  /* line 219, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:not(:first-of-type) {
     margin-top: 1rem; }
-  /* line 231, assets/sass/_displays-override.scss */
+  /* line 222, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:last-of-type {
     max-width: 30px; }
 
@@ -402,7 +382,7 @@ p {
       .display-posts-listing article:nth-of-type(2n) .excerpt {
         grid-column: -2 / -3; } }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 243, assets/sass/_displays-override.scss */
+  /* line 234, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 /* line 1, assets/sass/_shadows-override.scss */

@@ -54,27 +54,11 @@ a:active {
 .post-bottom a:link:hover {
   color: $color-secondary-1-4-hover;
 }
-.posts-navigation a,
-.posts-navigation a:link,
-.post-navigation a,
-.post-navigation a:link {
-	color: white;
-  background-color: $color-secondary-1-4;
+
+.post-navigation a {
+	@extend %button;
 }
 
-.posts-navigation a:hover,
-.posts-navigation a:link:hover,
-.post-navigation a:hover,
-.post-navigation a:link:hover {
-  background-color: $color-secondary-1-4-hover;
-}
-
-.posts-navigation a:visited,
-.posts-navigation a:link:visited,
-.post-navigation a:visited,
-.post-navigation a:link:visited {
-  background-color: $color-secondary-1-4;
-}
 .link-inherit a:hover,
 .site-footer .site-info a:hover,
 .main-navigation a:hover,

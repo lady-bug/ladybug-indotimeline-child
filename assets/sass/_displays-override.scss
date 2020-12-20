@@ -159,21 +159,12 @@ p {
 
       .excerpt-more,
       .excerpt-more:link {
-        display: inline-block;
-        background-color: $color-secondary-1-4;
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 1rem;
+        @extend %button;
         position: absolute;
         bottom: 0;
         left: 1rem;
       }
 
-      .excerpt-more:hover,
-      .excerpt-more:focus,
-      .excerpt-more:active {
-        background-color: $color-secondary-1-4-hover;
-      }
     }
 
   }
