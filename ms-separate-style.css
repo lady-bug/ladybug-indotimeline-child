@@ -16,6 +16,21 @@
 /*
  * MEDIAQUERIES
 ******************************************************/
+/* tags vs timeline to be fixed */
+.post-bottom .tags-links a,
+.post-bottom .tags-links a:link {
+pointer-events: none;
+cursor: text;
+color: #9B9B9B;
+}
+.post-bottom .tags-links a:hover,
+.post-bottom .tags-links a:link:hover,
+.post-bottom .tags-links a:visited,
+.post-bottom .tags-links a:link:visited,
+.post-bottom .tags-links a:active,
+.post-bottom .tags-links a:link:active {
+color: #9B9B9B;
+}
 /* line 4, assets/sass/_placeholders.scss */
 .post-navigation a, .display-posts-listing article .excerpt .excerpt-more,
 .display-posts-listing article .excerpt .excerpt-more:link, .post-navigation a:link, .display-posts-listing article .excerpt .excerpt-more:link, .post-navigation a:visited, .display-posts-listing article .excerpt .excerpt-more:visited {
