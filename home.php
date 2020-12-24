@@ -23,7 +23,7 @@ get_header();
 
 				<div class="main-content">
 
-					<header class="page-header timeline-header">
+					<header class="page-header timeline-header sr-only">
 						<div class="timeline-header-inner">
 							<?php
 							single_post_title( '<h1 class="page-title">', '</h1>' );
