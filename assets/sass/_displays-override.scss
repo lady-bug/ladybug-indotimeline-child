@@ -59,8 +59,31 @@ p {
 }
 
 //WIDGET LIST DISPPLAY
-.widget ul li:first-of-type {
-    padding-top: 0;
+.sidebar-content  .widget {
+  margin: 0;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    .sub-menu {
+      border-top-width: 0;
+      li {
+        border-width: 0;
+
+        &:first-of-type {
+          padding-top: 0.5rem;
+        }
+      }
+    }
+  }
 }
 
 //SIDEBAR ON ELEMENTS
@@ -82,12 +105,17 @@ p {
   padding: 20px 0 0 0;
   .entry-title {
     padding: 0;
+    margin: 0 0 1rem 0;
   }
 }
 
 //TIMELINE
 .timeline-line {
 	width: 3px;
+}
+//... tbf
+.timeline-2-columns .timeline-list .hentry {
+    width: 100%;
 }
 
 //TIMELINE LISTING
@@ -126,8 +154,12 @@ p {
 //DISPLAY POSTS SHORTCODE
 .display-posts-listing{
   article {
-    padding: 2rem 0 2rem 0;
+    padding: 0 0 3rem 0;
     margin: 0;
+
+    &:last-of-type{
+      padding: 0;
+    }
 
     figure {
       height: 10rem;
@@ -205,6 +237,12 @@ p {
 }
 
 @include respond-to(s) {
+
+  //TIMELINE ... tbf
+  .timeline-2-columns .timeline-list .hentry {
+      width: 50%;
+  }
+
   //HEADER
   .site-header .site-header-content {
   	.site-description {
