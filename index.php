@@ -17,21 +17,20 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		<?php
-		if ( have_posts() ) :
+		<?php if ( have_posts() ) : ?>
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
-
-			?>
 			<div class="container">
 
 				<div class="main-content">
+
+					<header class="page-header timeline-header">
+						<div class="timeline-header-inner">
+							<?php
+							single_post_title( '<h1 class="page-title">', '</h1>' );
+							?>
+						</div>
+					</header><!-- .page-header -->
+
 					<?php indotimeline_timeline_before() ?>
 						<?php
 						/* Start the Loop */
