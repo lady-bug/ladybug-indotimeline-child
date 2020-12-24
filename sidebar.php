@@ -7,9 +7,9 @@
  * @package IndoTimeline
  */
 
-// if ( indotimeline_options('general_sidebar_display') == "disable" ) {
-// 	return;
-// }
+ if ( ! is_active_sidebar( 'sidebar-content' ) ) {
+ 	return;
+ }
 ?>
 
 <section class="sidebar sidebar-content link-inherit">
