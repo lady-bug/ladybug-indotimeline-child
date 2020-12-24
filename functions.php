@@ -23,7 +23,7 @@ add_action( 'wp_enqueue_scripts', 'ms_theme_editor_child_css', 20 );
  */
 function ladybug_indotimeline_child_body_classes( $classes ) {
 
-	if( is_page( ) ) {
+	if( is_active_sidebar( 'sidebar-content' ) ) {
 		$classes[] = 'has-sidebar sidebar-right';
 	}
 
