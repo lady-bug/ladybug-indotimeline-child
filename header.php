@@ -134,14 +134,25 @@
 						<?php endif ; ?>
 
 					<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
-					<div class="float-right">
+						<nav id="site-navigation" class="main-navigation site-navigation" role="menubar">
+							<div class="container">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'indotimeline' ); ?></button>
 
-						<div class="navbar-btn navigation-menu float-right js_navigation_action">
-							<i class="ionicons icon-now ion-navicon itl-fz-36"></i>
-							<i class="ionicons icon-gost ion-close itl-fz-23"></i>
+								<?php
+								wp_nav_menu( array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+								) );
+								?>
+							</div>
+						</nav>
+						<!-- #site-navigation -->
+						<div class="float-right">
+							<div class="navbar-btn navigation-menu float-right js_navigation_action">
+								<i class="ionicons icon-now ion-navicon itl-fz-36"></i>
+								<i class="ionicons icon-gost ion-close itl-fz-23"></i>
+							</div>
 						</div>
-
-					</div>
 					<?php endif ; ?>
 				</div>
 			</div>
@@ -149,29 +160,7 @@
 		</div>
 		<!-- .navbar-header -->
 
-		<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
-		<nav id="site-navigation" class="main-navigation site-navigation">
-			<div class="close-mobile-btn js_navigation_action">
-				<i class="ionicons icon-gost ion-close itl-fz-23"></i>
-			</div>
-			<div class="container">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'indotimeline' ); ?></button>
-
-				<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-				?>
-
-			</div>
-
-		</nav>
-		<?php endif ; ?>
-		<!-- #site-navigation -->
-
 	</section>
 	<!-- .section-header-wrapper -->
-
 
 	<div id="content" class="site-content">

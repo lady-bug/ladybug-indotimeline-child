@@ -52,7 +52,7 @@ p {
   	}
 
   	.site-description {
-  	    font-size: 2rem;
+  	    font-size: 1.5rem;
   	}
 
   }
@@ -203,6 +203,28 @@ p {
 
 }
 
+//MOBILE MAIN NAVIGATION
+#site-navigation {
+    border-color: $color-primary-4;
+    width: 75vw;
+
+    ul.menu {
+      &> li:hover {
+        border-bottom: 1px solid #f1f1f1;
+      }
+    }
+}
+.navbar-header .navbar-btn:hover {
+    color: $color-secondary-1-4-hover;
+}
+//SOCIAL MEDIA
+.social-media {
+  left: 0;
+  margin: 0;
+  height: 4rem;
+}
+
+
 @include respond-to(xxs) {
 
 
@@ -232,6 +254,68 @@ p {
   //DISPLAY POSTS SHORTCODE
   body:not(.has-sidebar) {
     @include set-display-posts-listing;
+  }
+
+  //MAIN NAVIGATION
+  #site-navigation {
+    float: right;
+    position: static;
+    right: auto;
+    width: auto;
+    top: auto;
+    z-index: auto;
+    opacity: 1;
+    box-shadow: none;
+    font-size: 1rem;
+
+    &+ .float-right{
+      display: none;
+    }
+
+    .container {
+      position: static;
+      width: auto;
+      max-width: none;
+      padding: 0;
+      margin: 0;
+
+      .menu {
+        display: table;
+        margin: 0;
+        padding: 0;
+        height: 4rem;
+
+        .menu-item {
+          display: table-cell;
+          vertical-align: middle;
+          float: none;
+          padding: 0;
+          border-width: 2px 0;
+          border-color: white;
+
+          &:hover {
+            
+          }
+
+          &.current-menu-item {
+            border-bottom-color: $color-secondary-1-4-hover;
+          }
+
+          a,
+          a:link {
+            padding: 0.5em;
+            margin: 0;
+
+            &:hover,
+            &:visited,
+            &:active {
+              color: $color-secondary-1-4-hover;
+            }
+
+          }
+        }
+      }
+    }
   }
 
 }
