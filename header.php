@@ -156,20 +156,13 @@
 			</div>
 			<div class="container">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'indotimeline' ); ?></button>
+
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
 				) );
 				?>
-				<div class="nav-search">
-					<?php get_search_form(); ?>
-				</div>
-
-				<div class="nav-search-btn js_navigation_search_action">
-					<i class="ionicons icon-now ion-ios-search-strong itl-fz-28"></i>
-					<i class="ionicons icon-gost ion-close itl-fz-22"></i>
-				</div>
 
 			</div>
 
