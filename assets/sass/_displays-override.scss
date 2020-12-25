@@ -209,8 +209,14 @@ p {
     width: 75vw;
 
     ul.menu {
-      &> li:hover {
-        border-bottom: 1px solid #f1f1f1;
+      &> li {
+        border-left: 2px solid white;
+        &:hover {
+          border-bottom: 1px solid #f1f1f1;
+        }
+        &.current-menu-item {
+          border-left-color: $color-secondary-1-4-hover;
+        }
       }
     }
 }
@@ -294,7 +300,7 @@ p {
           border-color: white;
 
           &:hover {
-            
+
           }
 
           &.current-menu-item {

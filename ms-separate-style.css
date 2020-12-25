@@ -299,29 +299,35 @@ p {
   border-color: #158F71;
   width: 75vw; }
   /* line 212, assets/sass/_displays-override.scss */
-  #site-navigation ul.menu > li:hover {
-    border-bottom: 1px solid #f1f1f1; }
+  #site-navigation ul.menu > li {
+    border-left: 2px solid white; }
+    /* line 214, assets/sass/_displays-override.scss */
+    #site-navigation ul.menu > li:hover {
+      border-bottom: 1px solid #f1f1f1; }
+    /* line 217, assets/sass/_displays-override.scss */
+    #site-navigation ul.menu > li.current-menu-item {
+      border-left-color: #B37819; }
 
-/* line 217, assets/sass/_displays-override.scss */
+/* line 223, assets/sass/_displays-override.scss */
 .navbar-header .navbar-btn:hover {
   color: #B37819; }
 
-/* line 221, assets/sass/_displays-override.scss */
+/* line 227, assets/sass/_displays-override.scss */
 .social-media {
   left: 0;
   margin: 0;
   height: 4rem; }
 
 @media only screen and (min-device-width: 40em) and (min-width: 40em), only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
-  /* line 238, assets/sass/_displays-override.scss */
+  /* line 244, assets/sass/_displays-override.scss */
   .sidebar-right .main-content {
     margin-right: 2.5641%; }
-  /* line 242, assets/sass/_displays-override.scss */
+  /* line 248, assets/sass/_displays-override.scss */
   .sidebar-right .side-content {
     position: -webkit-sticky;
     position: sticky;
     top: 3.3rem; }
-  /* line 248, assets/sass/_displays-override.scss */
+  /* line 254, assets/sass/_displays-override.scss */
   .sidebar-right .widget-area {
     margin-right: 0; }
 
@@ -370,7 +376,7 @@ p {
       body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) .excerpt {
         grid-column: -2 / -3; }
 
-  /* line 260, assets/sass/_displays-override.scss */
+  /* line 266, assets/sass/_displays-override.scss */
   #site-navigation {
     float: right;
     position: static;
@@ -381,23 +387,23 @@ p {
     opacity: 1;
     box-shadow: none;
     font-size: 1rem; }
-    /* line 271, assets/sass/_displays-override.scss */
+    /* line 277, assets/sass/_displays-override.scss */
     #site-navigation + .float-right {
       display: none; }
-    /* line 275, assets/sass/_displays-override.scss */
+    /* line 281, assets/sass/_displays-override.scss */
     #site-navigation .container {
       position: static;
       width: auto;
       max-width: none;
       padding: 0;
       margin: 0; }
-      /* line 282, assets/sass/_displays-override.scss */
+      /* line 288, assets/sass/_displays-override.scss */
       #site-navigation .container .menu {
         display: table;
         margin: 0;
         padding: 0;
         height: 4rem; }
-        /* line 288, assets/sass/_displays-override.scss */
+        /* line 294, assets/sass/_displays-override.scss */
         #site-navigation .container .menu .menu-item {
           display: table-cell;
           vertical-align: middle;
@@ -405,36 +411,36 @@ p {
           padding: 0;
           border-width: 2px 0;
           border-color: white; }
-          /* line 300, assets/sass/_displays-override.scss */
+          /* line 306, assets/sass/_displays-override.scss */
           #site-navigation .container .menu .menu-item.current-menu-item {
             border-bottom-color: #B37819; }
-          /* line 304, assets/sass/_displays-override.scss */
+          /* line 310, assets/sass/_displays-override.scss */
           #site-navigation .container .menu .menu-item a,
           #site-navigation .container .menu .menu-item a:link {
             padding: 0.5em;
             margin: 0; }
-            /* line 309, assets/sass/_displays-override.scss */
+            /* line 315, assets/sass/_displays-override.scss */
             #site-navigation .container .menu .menu-item a:hover, #site-navigation .container .menu .menu-item a:visited, #site-navigation .container .menu .menu-item a:active,
             #site-navigation .container .menu .menu-item a:link:hover,
             #site-navigation .container .menu .menu-item a:link:visited,
             #site-navigation .container .menu .menu-item a:link:active {
               color: #B37819; } }
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 326, assets/sass/_displays-override.scss */
+  /* line 332, assets/sass/_displays-override.scss */
   .timeline-2-columns .timeline-list .hentry {
     width: 50%; }
 
-  /* line 332, assets/sass/_displays-override.scss */
+  /* line 338, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
     font-size: 2.5rem; }
 
-  /* line 338, assets/sass/_displays-override.scss */
+  /* line 344, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:first-of-type {
     max-width: 75px; }
-  /* line 341, assets/sass/_displays-override.scss */
+  /* line 347, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:not(:first-of-type) {
     margin-top: 1rem; }
-  /* line 344, assets/sass/_displays-override.scss */
+  /* line 350, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:last-of-type {
     max-width: 30px; }
 
@@ -483,7 +489,7 @@ p {
       .display-posts-listing article:nth-of-type(2n) .excerpt {
         grid-column: -2 / -3; } }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 356, assets/sass/_displays-override.scss */
+  /* line 362, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 /* line 1, assets/sass/_shadows-override.scss */
