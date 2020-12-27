@@ -1,6 +1,6 @@
-/*
- * BREAKPOINTS
-******************************************************/
+
+// BREAKPOINTS
+
 $breakpoints:(
     xxs:20em,   //320
     xs: 40em,   //640
@@ -11,9 +11,9 @@ $breakpoints:(
     xl: 90em    //1440
 );
 
-/*
- * MEDIAQUERIES
-******************************************************/
+
+// MEDIAQUERIES
+
 @mixin respond-to($breakpoint){
     // Retrieves the value from the key
     $value: map-get($breakpoints, $breakpoint);
