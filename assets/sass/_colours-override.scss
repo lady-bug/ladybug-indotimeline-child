@@ -13,31 +13,6 @@ body {
 	}
 }
 
-//ICONS
-.social-icon{
-	text-align: center;
-	padding-right: 1rem;
-}
-.social-icon-in {
-	margin: 0;
-	padding: 0;
-	width: 2.5rem;
-  height: 2.5rem;
-
-	&.linkedin,
-	&.github{
-		background-color: $color-secondary-1-4;
-	}
-	&.bug {
-		background-color: white;
-		border: 1px solid $color-secondary-1-4;
-
-		i {
-			color: $color-secondary-1-4;
-		}
-	}
-}
-
 //LINKS
 a,
 a:visited,

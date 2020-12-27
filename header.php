@@ -68,13 +68,6 @@
 					<?php endif ; ?>
 
 						<nav role="menubar" class="social-media float-left">
-
-							<div class="social-icon">
-									<a href="/" class="inline-block social-icon-in bug">
-										<i class="ionicons ion-bug itl-fz-20"></i>
-									</a>
-							</div>
-
 								<div class="social-icon">
 										<a href="https://www.linkedin.com/in/lady-bug/" class="inline-block social-icon-in linkedin" target="_blank">
 											<i class="ionicons ion-social-linkedin itl-fz-20"></i>
@@ -133,10 +126,16 @@
 							</div>
 						<?php endif ; ?>
 
+						<div class="float-right social-icon home" role="navigation">
+								<a href="/" title="home" class="inline-block social-icon-in bug">
+									<i class="ionicons ion-bug itl-fz-20"></i>
+								</a>
+						</div>
+						<!-- home page icon button -->
+						
 					<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 						<nav id="site-navigation" class="main-navigation site-navigation" role="menubar">
 							<div class="container">
-								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'indotimeline' ); ?></button>
 
 								<?php
 								wp_nav_menu( array(
@@ -144,16 +143,21 @@
 									'menu_id'        => 'primary-menu',
 								) );
 								?>
+
 							</div>
 						</nav>
 						<!-- #site-navigation -->
-						<div class="float-right">
+
+						<div class="float-right" role="button">
 							<div class="navbar-btn navigation-menu float-right js_navigation_action">
 								<i class="ionicons icon-now ion-navicon itl-fz-36"></i>
 								<i class="ionicons icon-gost ion-close itl-fz-23"></i>
 							</div>
 						</div>
+						<!-- toggle button mobile -->
+
 					<?php endif ; ?>
+
 				</div>
 			</div>
 

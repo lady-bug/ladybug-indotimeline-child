@@ -59,7 +59,7 @@ p {
 }
 
 //WIDGET LIST DISPPLAY
-.sidebar-content  .widget {
+.sidebar-content .widget {
   margin: 0;
 
   ul {
@@ -206,7 +206,7 @@ p {
 //MOBILE MAIN NAVIGATION
 #site-navigation {
     border-color: $color-primary-4;
-    width: 75vw;
+    width: 70vw;
 
     ul.menu {
       &> li {
@@ -229,7 +229,34 @@ p {
   margin: 0;
   height: 4rem;
 }
+//ICONS
+.social-icon{
+	text-align: center;
+	padding-right: 1rem;
 
+	&.home {
+		padding:0.7rem 0 0 1rem;
+	}
+}
+.social-icon-in {
+	margin: 0;
+	padding: 0;
+	width: 2.5rem;
+  height: 2.5rem;
+
+	&.linkedin,
+	&.github{
+		background-color: $color-secondary-1-4;
+	}
+	&.bug {
+		background-color: white;
+		border: 1px solid $color-secondary-1-4;
+
+		i {
+			color: $color-secondary-1-4;
+		}
+	}
+}
 
 @include respond-to(xxs) {
 
@@ -274,7 +301,7 @@ p {
     box-shadow: none;
     font-size: 1rem;
 
-    &+ .float-right{
+    &~ .float-right:not(.home){
       display: none;
     }
 
