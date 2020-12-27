@@ -234,6 +234,20 @@ p {
           border-left-color: $color-secondary-1-4-hover;
         }
       }
+      a,
+      a:link {
+        color: #9B9B9B;
+
+        &:hover,
+        &:focus {
+          color: $color-secondary-1-4-hover;
+        }
+
+        &:visited,
+        &:active {
+          color: #9B9B9B;
+        }
+      }
     }
 }
 //SOCIAL MEDIA
@@ -339,10 +353,6 @@ p {
           border-width: 2px 0;
           border-color: white;
 
-          &:hover {
-
-          }
-
           &.current-menu-item,
           &.current_page_parent {
             border-bottom-color: $color-secondary-1-4-hover;
@@ -352,13 +362,6 @@ p {
           a:link {
             padding: 0.5em;
             margin: 0;
-
-            &:hover,
-            &:visited,
-            &:active {
-              color: $color-secondary-1-4-hover;
-            }
-
           }
         }
       }

@@ -44,20 +44,8 @@ a:active {
 .widget a:hover,
 .link-inherit a:link:hover,
 .site-footer .site-info a:link:hover,
-.main-navigation a:link:hover,
 .widget a:link:hover {
   color: $color-secondary-1-4-hover;
-}
-
-.link-inherit a:visited,
-.site-footer .site-info a:visited,
-.main-navigation a:visited,
-.widget a:visited,
-.link-inherit a:link:visited,
-.site-footer .site-info a:link:visited,
-.main-navigation a:link:visited,
-.widget a:link:visited {
-  //color: $color-secondary-1-4;
 }
 
 //TITLE
