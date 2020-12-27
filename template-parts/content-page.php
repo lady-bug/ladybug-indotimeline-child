@@ -8,8 +8,11 @@
  */
 
 ?>
-
+<?php if(!is_front_page()): ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<?php else: ?>
+<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<?php endif; ?>
 
 	<div class="post-inner">
 		<?php
@@ -76,4 +79,8 @@
 
 	</div>
 
+<?php if(!is_front_page()): ?>
 </article><!-- #post-<?php the_ID(); ?> -->
+<?php else: ?>
+</section>
+<?php endif; ?>
