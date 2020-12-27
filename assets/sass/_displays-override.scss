@@ -202,7 +202,13 @@ p {
   }
 
 }
-
+//NAV BAR HEADER
+.navbar-header {
+  height: auto;
+  .navbar-btn:hover {
+    color: $color-secondary-1-4-hover;
+  }
+}
 //MOBILE MAIN NAVIGATION
 #site-navigation {
     border-color: $color-primary-4;
@@ -214,14 +220,12 @@ p {
         &:hover {
           border-bottom: 1px solid #f1f1f1;
         }
-        &.current-menu-item {
+        &.current-menu-item,
+        &.current_page_parent {
           border-left-color: $color-secondary-1-4-hover;
         }
       }
     }
-}
-.navbar-header .navbar-btn:hover {
-    color: $color-secondary-1-4-hover;
 }
 //SOCIAL MEDIA
 .social-media {
@@ -330,7 +334,8 @@ p {
 
           }
 
-          &.current-menu-item {
+          &.current-menu-item,
+          &.current_page_parent {
             border-bottom-color: $color-secondary-1-4-hover;
           }
 
