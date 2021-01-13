@@ -1,3 +1,7 @@
+# SASS & COMPASS
+# RUBY RAILS
+# 'compass watch' in /wp-content/themes/ladybug-indotimeline-child
+# ctrl c to stop
 #enable sass in rails
 gem "sass"
 #root level target path
