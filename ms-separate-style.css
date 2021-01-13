@@ -188,7 +188,7 @@ p {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  /*width: auto;*/ }
+  width: 1880px; }
 
 /* line 113, assets/sass/_displays-override.scss */
 .hentry .entry-header {
@@ -201,10 +201,6 @@ p {
 /* line 122, assets/sass/_displays-override.scss */
 .timeline-line {
   width: 3px; }
-
-/* line 126, assets/sass/_displays-override.scss */
-.timeline-2-columns .timeline-list .hentry {
-  width: 100%; }
 
 /* line 131, assets/sass/_displays-override.scss */
 .timeline-list .hentry .entry-media a img {
@@ -339,124 +335,15 @@ p {
       color: #DD9420; }
 
 @media only screen and (min-device-width: 40em) and (min-width: 40em), only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
-  /* line 298, assets/sass/_displays-override.scss */
+  /* line 297, assets/sass/_displays-override.scss */
   .sidebar-right .main-content {
-    margin-right: 2.5641%; }
-  /* line 302, assets/sass/_displays-override.scss */
-  .sidebar-right .side-content {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 3.3rem; }
-  /* line 308, assets/sass/_displays-override.scss */
-  .sidebar-right .widget-area {
-    margin-right: 0; }
-
-  /* line 5, assets/sass/_mixins.scss */
-  body:not(.has-sidebar) .display-posts-listing article {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto; }
-    /* line 10, assets/sass/_mixins.scss */
-    body:not(.has-sidebar) .display-posts-listing article figure {
-      grid-column: 1 / 2;
-      grid-row: 1 / 3;
-      margin: 0;
-      height: 15rem;
-      position: static; }
-      /* line 17, assets/sass/_mixins.scss */
-      body:not(.has-sidebar) .display-posts-listing article figure img {
-        height: 100%;
-        width: auto;
-        max-width: 100%;
-        max-height: 100%;
-        position: static;
-        top: auto;
-        bottom: auto;
-        object-fit: cover; }
-    /* line 30, assets/sass/_mixins.scss */
-    body:not(.has-sidebar) .display-posts-listing article h2 {
-      grid-column: 2 / 3;
-      grid-row: 1 / 2;
-      margin: 0; }
-    /* line 36, assets/sass/_mixins.scss */
-    body:not(.has-sidebar) .display-posts-listing article .excerpt {
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
-      margin: 0; }
-    /* line 42, assets/sass/_mixins.scss */
-    body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) {
-      grid-template-columns: 2fr 1fr; }
-      /* line 44, assets/sass/_mixins.scss */
-      body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) figure {
-        grid-column: -1 / -2; }
-      /* line 47, assets/sass/_mixins.scss */
-      body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) h2 {
-        grid-column: -2 / -3; }
-      /* line 50, assets/sass/_mixins.scss */
-      body:not(.has-sidebar) .display-posts-listing article:nth-of-type(2n) .excerpt {
-        grid-column: -2 / -3; }
-
-  /* line 320, assets/sass/_displays-override.scss */
-  #site-navigation {
-    float: right;
-    position: static;
-    right: auto;
     width: auto;
-    top: auto;
-    z-index: auto;
-    opacity: 1;
-    box-shadow: none;
-    font-size: 1rem; }
-    /* line 331, assets/sass/_displays-override.scss */
-    #site-navigation ~ .float-right:not(.home) {
-      display: none; }
-    /* line 335, assets/sass/_displays-override.scss */
-    #site-navigation .container {
-      position: static;
-      width: auto;
-      max-width: none;
-      padding: 0;
-      margin: 0; }
-      /* line 342, assets/sass/_displays-override.scss */
-      #site-navigation .container .menu {
-        display: table;
-        margin: 0;
-        padding: 0;
-        height: 4rem; }
-        /* line 348, assets/sass/_displays-override.scss */
-        #site-navigation .container .menu .menu-item {
-          display: table-cell;
-          vertical-align: middle;
-          float: none;
-          padding: 0;
-          border-width: 2px 0;
-          border-color: white; }
-          /* line 356, assets/sass/_displays-override.scss */
-          #site-navigation .container .menu .menu-item.current-menu-item, #site-navigation .container .menu .menu-item.current_page_parent {
-            border-bottom-color: #B37819; }
-          /* line 361, assets/sass/_displays-override.scss */
-          #site-navigation .container .menu .menu-item a,
-          #site-navigation .container .menu .menu-item a:link {
-            padding: 0.5em;
-            margin: 0; } }
-@media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 376, assets/sass/_displays-override.scss */
-  .timeline-2-columns .timeline-list .hentry {
-    width: 50%; }
-
-  /* line 382, assets/sass/_displays-override.scss */
-  .site-header .site-header-content .site-description {
-    font-size: 2.5rem; }
-
-  /* line 388, assets/sass/_displays-override.scss */
-  .first-column-75 > .wp-block-column:first-of-type {
-    max-width: 75px; }
-  /* line 391, assets/sass/_displays-override.scss */
-  .first-column-75 > .wp-block-column:not(:first-of-type) {
-    margin-top: 1rem; }
-  /* line 394, assets/sass/_displays-override.scss */
-  .first-column-75 > .wp-block-column:last-of-type {
-    max-width: 30px; }
+    float: none;
+    margin-right: 0; }
+  /* line 303, assets/sass/_displays-override.scss */
+  .sidebar-right .side-content {
+    width: auto;
+    float: none; }
 
   /* line 5, assets/sass/_mixins.scss */
   .display-posts-listing article {
@@ -501,9 +388,84 @@ p {
         grid-column: -2 / -3; }
       /* line 50, assets/sass/_mixins.scss */
       .display-posts-listing article:nth-of-type(2n) .excerpt {
-        grid-column: -2 / -3; } }
+        grid-column: -2 / -3; }
+
+  /* line 313, assets/sass/_displays-override.scss */
+  #site-navigation {
+    float: right;
+    position: static;
+    right: auto;
+    width: auto;
+    top: auto;
+    z-index: auto;
+    opacity: 1;
+    box-shadow: none;
+    font-size: 1rem; }
+    /* line 324, assets/sass/_displays-override.scss */
+    #site-navigation ~ .float-right:not(.home) {
+      display: none; }
+    /* line 328, assets/sass/_displays-override.scss */
+    #site-navigation .container {
+      position: static;
+      width: auto;
+      max-width: none;
+      padding: 0;
+      margin: 0; }
+      /* line 335, assets/sass/_displays-override.scss */
+      #site-navigation .container .menu {
+        display: table;
+        margin: 0;
+        padding: 0;
+        height: 4rem; }
+        /* line 341, assets/sass/_displays-override.scss */
+        #site-navigation .container .menu .menu-item {
+          display: table-cell;
+          vertical-align: middle;
+          float: none;
+          padding: 0;
+          border-width: 2px 0;
+          border-color: white; }
+          /* line 349, assets/sass/_displays-override.scss */
+          #site-navigation .container .menu .menu-item.current-menu-item, #site-navigation .container .menu .menu-item.current_page_parent {
+            border-bottom-color: #B37819; }
+          /* line 354, assets/sass/_displays-override.scss */
+          #site-navigation .container .menu .menu-item a,
+          #site-navigation .container .menu .menu-item a:link {
+            padding: 0.5em;
+            margin: 0; } }
+@media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
+  /* line 375, assets/sass/_displays-override.scss */
+  .site-header .site-header-content .site-description {
+    font-size: 2.5rem; }
+
+  /* line 381, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:first-of-type {
+    max-width: 75px; }
+  /* line 384, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:not(:first-of-type) {
+    margin-top: 1rem; }
+  /* line 387, assets/sass/_displays-override.scss */
+  .first-column-75 > .wp-block-column:last-of-type {
+    max-width: 30px; }
+
+  /* line 395, assets/sass/_displays-override.scss */
+  .sidebar-right .main-content {
+    width: 65.81197%;
+    float: left;
+    margin-right: 2.5641%; }
+  /* line 401, assets/sass/_displays-override.scss */
+  .sidebar-right .side-content {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3.3rem;
+    width: 31.62393%;
+    float: left;
+    margin-right: 0; }
+  /* line 410, assets/sass/_displays-override.scss */
+  .sidebar-right .widget-area {
+    margin-right: 0; } }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 406, assets/sass/_displays-override.scss */
+  /* line 420, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 /* line 1, assets/sass/_shadows-override.scss */
@@ -563,10 +525,66 @@ p {
     right: 0;
     top: 1rem; }
 
+/* line 51, assets/sass/_custom-display.scss */
+.block-transcript {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #eee; }
+  /* line 56, assets/sass/_custom-display.scss */
+  .block-transcript figure {
+    margin: 0 0 1rem 0; }
+  /* line 59, assets/sass/_custom-display.scss */
+  .block-transcript video {
+    max-width: 100%; }
+  /* line 62, assets/sass/_custom-display.scss */
+  .block-transcript #transcript {
+    max-height: 20rem;
+    overflow-y: auto;
+    display: block;
+    padding: 1rem;
+    background-color: #fafafa; }
+
+/* line 72, assets/sass/_custom-display.scss */
+.single .hentry .entry-content p {
+  max-width: none; }
+
+/* line 76, assets/sass/_custom-display.scss */
+details {
+  color: #404040;
+  overflow-wrap: anywhere;
+  background-color: #eee;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem; }
+  /* line 83, assets/sass/_custom-display.scss */
+  details summary {
+    cursor: pointer;
+    outline: unset;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: #999; }
+  /* line 90, assets/sass/_custom-display.scss */
+  details summary:focus,
+  details summary:hover {
+    color: #000; }
+  /* line 94, assets/sass/_custom-display.scss */
+  details[open] summary,
+  details summary:visited,
+  details summary:active {
+    color: #999; }
+  /* line 99, assets/sass/_custom-display.scss */
+  details pre,
+  details section {
+    margin: 0;
+    padding: 1rem; }
+  /* line 104, assets/sass/_custom-display.scss */
+  details code {
+    white-space: pre-wrap;
+    overflow-wrap: break-word; }
+
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 50, assets/sass/_custom-display.scss */
+  /* line 111, assets/sass/_custom-display.scss */
   .columns-skills {
     position: static; }
-    /* line 52, assets/sass/_custom-display.scss */
+    /* line 113, assets/sass/_custom-display.scss */
     .columns-skills .evaluation {
       position: static; } }

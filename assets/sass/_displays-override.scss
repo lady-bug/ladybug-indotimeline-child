@@ -106,7 +106,7 @@ p {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  /*width: auto;*/
+  width: 1880px;
 }
 
 //ENTRY TITLE
@@ -123,9 +123,9 @@ p {
 	width: 3px;
 }
 //... tbf
-.timeline-2-columns .timeline-list .hentry {
-    width: 100%;
-}
+//.timeline-2-columns .timeline-list .hentry {
+//    width: 100%;
+//}
 
 //TIMELINE LISTING
 .timeline-list .hentry .entry-media a img{
@@ -292,29 +292,22 @@ p {
 
 @include respond-to(xs) {
 
-  //SIDEBAR ON ELEMENTS
   .sidebar-right {
 
     .main-content{
-      margin-right: 2.5641%;
-    }
-
-    .side-content {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 3.3rem;
-    }
-
-    .widget-area {
+      width: auto;
+      float: none;
       margin-right: 0;
     }
 
+    .side-content {
+      width: auto;
+      float: none;
+    }
   }
 
   //DISPLAY POSTS SHORTCODE
-  body:not(.has-sidebar) {
-    @include set-display-posts-listing;
-  }
+  @include set-display-posts-listing;
 
   //MAIN NAVIGATION
   #site-navigation {
@@ -373,9 +366,9 @@ p {
 @include respond-to(s) {
 
   //TIMELINE ... tbf
-  .timeline-2-columns .timeline-list .hentry {
-      width: 50%;
-  }
+  //.timeline-2-columns .timeline-list .hentry {
+  //    width: 50%;
+  //}
 
   //HEADER
   .site-header .site-header-content {
@@ -396,8 +389,29 @@ p {
     }
   }
 
-  //DISPLAY POSTS SHORTCODE
-  @include set-display-posts-listing;
+  //SIDEBAR ON ELEMENTS
+  .sidebar-right {
+
+    .main-content{
+      width: 65.81197%;
+      float: left;
+      margin-right: 2.5641%;
+    }
+
+    .side-content {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 3.3rem;
+      width: 31.62393%;
+      float: left;
+      margin-right: 0;
+    }
+
+    .widget-area {
+      margin-right: 0;
+    }
+
+  }
 
 }
 
