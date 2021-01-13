@@ -46,6 +46,67 @@
 		top: 1rem;
 	}
 }
+
+//transcript block
+.block-transcript {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #eee;
+
+	figure{
+	  margin: 0 0 1rem 0;
+	}
+	video {
+	  max-width: 100%;
+	}
+	#transcript {
+	    max-height: 20rem;
+	    overflow-y: auto;
+	    display: block;
+			padding: 1rem;
+			background-color: #fafafa;
+	}
+}
+
+//weird thing
+.single .hentry .entry-content p {
+     max-width: none;
+}
+//details & summary
+details {
+  color: #404040;
+  overflow-wrap: anywhere;
+  background-color: #eee;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+
+	summary{
+	  cursor: pointer;
+	  outline: unset;
+	  font-size: 1.8rem;
+	  margin-bottom: 0;
+	  color: #999;
+	}
+	summary:focus,
+	summary:hover{
+	  color: #000;
+	}
+	&[open] summary,
+	summary:visited,
+	summary:active{
+	  color: #999;
+	}
+	pre,
+	section {
+	  margin: 0;
+	  padding: 1rem;
+	}
+	code {
+	  white-space: pre-wrap;
+	  overflow-wrap: break-word;
+	}
+}
+
 @include respond-to(s) {
 	.columns-skills {
 		position: static;
