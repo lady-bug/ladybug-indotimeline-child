@@ -403,6 +403,7 @@ p {
       position: sticky;
       top: 3.3rem;
       width: 31.62393%;
+      max-width: 400px;
       float: left;
       margin-right: 0;
     }
@@ -419,6 +420,16 @@ p {
   //HEADER
   .site-header {
     height: 10rem;;
+  }
+
+}
+@include respond-to(l) {
+  .sidebar-right {
+
+    .main-content{
+      width: calc(100% - 2.5641% - 400px);
+    }
+
   }
 
 }

@@ -459,15 +459,20 @@ p {
     position: sticky;
     top: 3.3rem;
     width: 31.62393%;
+    max-width: 400px;
     float: left;
     margin-right: 0; }
-  /* line 410, assets/sass/_displays-override.scss */
+  /* line 411, assets/sass/_displays-override.scss */
   .sidebar-right .widget-area {
     margin-right: 0; } }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 420, assets/sass/_displays-override.scss */
+  /* line 421, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
+@media only screen and (min-device-width: 80em) and (min-width: 80em), only screen and (min-device-width: 80em) and (min-width: 80em) and (min-aspect-ratio: 1 / 1) {
+  /* line 429, assets/sass/_displays-override.scss */
+  .sidebar-right .main-content {
+    width: calc(100% - 2.5641% - 400px); } }
 /* line 1, assets/sass/_shadows-override.scss */
 .hentry .post-middle {
   -webkit-box-shadow: none;
