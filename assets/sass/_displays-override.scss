@@ -106,7 +106,8 @@ p {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  width: 1880px;
+  width: auto;
+  max-width: 1880px;
 }
 
 //ENTRY TITLE
