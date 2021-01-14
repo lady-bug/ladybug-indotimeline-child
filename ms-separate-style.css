@@ -467,6 +467,36 @@ p {
     margin: 0 auto;
     flex: 0 0 30%; }
 
+  /* line 457, assets/sass/_displays-override.scss */
+  .sidebar-content #secondary {
+    display: flex;
+    flex-wrap: nowrap; }
+    /* line 461, assets/sass/_displays-override.scss */
+    .sidebar-content #secondary .widget {
+      margin: 0; }
+    /* line 464, assets/sass/_displays-override.scss */
+    .sidebar-content #secondary .widget_recent_entries {
+      flex: 3;
+      position: relative; }
+      /* line 468, assets/sass/_displays-override.scss */
+      .sidebar-content #secondary .widget_recent_entries .widget-title {
+        transform: rotate(-90deg);
+        transform-origin: left;
+        padding: 0;
+        border-width: 0;
+        position: absolute;
+        top: 19rem;
+        left: 2rem;
+        margin: 0;
+        font-size: 3rem;
+        letter-spacing: 2rem; }
+      /* line 482, assets/sass/_displays-override.scss */
+      .sidebar-content #secondary .widget_recent_entries ul {
+        margin: 0 0 0 7rem; }
+    /* line 486, assets/sass/_displays-override.scss */
+    .sidebar-content #secondary .widget_nav_menu {
+      flex: 2; }
+
   /*.sidebar-right {
 
     .main-content{
@@ -491,7 +521,7 @@ p {
 
   }*/ }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 484, assets/sass/_displays-override.scss */
+  /* line 521, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 @media only screen and (min-device-width: 80em) and (min-width: 80em), only screen and (min-device-width: 80em) and (min-width: 80em) and (min-aspect-ratio: 1 / 1) {
