@@ -17,3 +17,30 @@
     }
   }
 }
+
+%nav-link {
+
+  &,
+  &:link,
+  &:visited {
+    display: block;
+    margin: 1rem;
+    position: relative;
+    color: $color-text;
+
+    &:before {
+      content: "\f3d6";
+      display: inline-block;
+      font-family: "Ionicons";
+      left: -1rem;
+      position: absolute;
+      font-size: 16px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-secondary-1-4-hover;
+    }
+  }
+}

@@ -186,10 +186,9 @@ p {
   overflow-x: auto;
 
   .listing-item {
-    padding: 0 0 3.5rem 0;
+    padding: 0;
     margin: 0 10% 0 0;
     flex: 0 0 65%;
-    position: relative;
 
     &:last-of-type{
       padding: 0;
@@ -221,23 +220,13 @@ p {
 
     .excerpt {
       margin-bottom: 0.5rem;
-      padding: 0 0 3.5rem 0;
-      min-height: 10rem;
+      padding: 0;
 
       .excerpt-more,
       .excerpt-more:link {
-        @extend %button;
-        position: absolute;
-        bottom: 3rem;
-        left: 0;
+        @extend %nav-link;
       }
     }
-    .post-bottom {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-
   }
 
 }
