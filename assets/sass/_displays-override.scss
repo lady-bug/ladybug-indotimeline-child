@@ -334,38 +334,57 @@ a:active {
 //NAV BAR HEADER
 .navbar-header {
   height: auto;
-  .navbar-btn:hover {
-    color: $color-secondary-1-4-hover;
+  .navbar-header-inner {
+    background-color: $color-secondary-1-4;
+    color: white;
+    padding: 0 20px;
+  }
+  .navbar-btn{
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: 0.5rem;
+
+    &:hover {
+      background-color: $color-secondary-1-4-hover;
+      color: white;
+    }
   }
 }
-//MOBILE MAIN NAVIGATION
+//MAIN NAVIGATION
 #site-navigation {
-    border-color: $color-primary-4;
-    width: 70vw;
-
-    ul.menu {
-      &> li {
-        border-left: 2px solid white;
-        &:hover {
-          border-bottom: 1px solid #f1f1f1;
+    background-color: transparent;
+}
+.open-main-navigation{
+  #site-navigation {
+      background-color: white;
+      border-color: $color-secondary-1-4;
+      ul.menu {
+        &> li {
+          border-left: 2px solid white;
+          &:hover {
+            border-bottom: 1px solid #f1f1f1;
+          }
+          &.current-menu-item,
+          &.current_page_parent {
+            border-left-color: $color-secondary-1-4-hover;
+          }
         }
-        &.current-menu-item,
-        &.current_page_parent {
-          border-left-color: $color-secondary-1-4-hover;
-        }
-      }
-      a,
-      a:link {
-        color: #9B9B9B;
+        a,
+        a:link,
+        a:visited {
+          color: $color-text;
 
-        &:hover,
-        &:focus {
-          color: $color-secondary-1-4-hover;
-        }
+          &:hover,
+          &:focus {
+            color: $color-secondary-1-4-hover;
+          }
 
-        &:visited,
-        &:active {
-          color: #9B9B9B;
+          &:visited,
+          &:active {
+            color: #9B9B9B;
+          }
         }
       }
     }
@@ -394,6 +413,7 @@ a:active {
 	&.linkedin,
 	&.github{
 		background-color: $color-secondary-1-4;
+    border: 1px solid white;
 	}
 	&.bug {
 		background-color: white;
@@ -460,18 +480,27 @@ a:active {
           vertical-align: middle;
           float: none;
           padding: 0;
-          border-width: 2px 0;
-          border-color: white;
+          border-width: 3px 0;
+          border-color: $color-secondary-1-4;
 
           &.current-menu-item,
           &.current_page_parent {
-            border-bottom-color: $color-secondary-1-4-hover;
+            border-bottom-color: white;
           }
 
           a,
-          a:link {
+          a:link,
+          a:visited {
             padding: 0.5em;
             margin: 0;
+            color: white;
+
+            &:hover,
+            &:focus,
+            &:active {
+              background-color: $color-secondary-1-4-hover;
+            }
+
           }
         }
       }
