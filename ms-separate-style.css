@@ -530,20 +530,24 @@ a:active {
       padding-bottom: 50px; }
 
   /* line 566, assets/sass/_displays-override.scss */
+  .main-content {
+    padding: 40px; }
+
+  /* line 570, assets/sass/_displays-override.scss */
   .sidebar-content {
     padding: 40px; }
-    /* line 568, assets/sass/_displays-override.scss */
+    /* line 572, assets/sass/_displays-override.scss */
     .sidebar-content #secondary {
       display: flex;
       flex-wrap: nowrap; }
-      /* line 572, assets/sass/_displays-override.scss */
+      /* line 576, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget {
         margin: 0; }
-      /* line 575, assets/sass/_displays-override.scss */
+      /* line 579, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_recent_entries {
         flex: 3;
         position: relative; }
-        /* line 579, assets/sass/_displays-override.scss */
+        /* line 583, assets/sass/_displays-override.scss */
         .sidebar-content #secondary .widget_recent_entries .widget-title {
           transform: rotate(-90deg);
           transform-origin: left;
@@ -555,10 +559,10 @@ a:active {
           margin: 0;
           font-size: 3rem;
           letter-spacing: 2rem; }
-        /* line 593, assets/sass/_displays-override.scss */
+        /* line 597, assets/sass/_displays-override.scss */
         .sidebar-content #secondary .widget_recent_entries ul {
           margin: 0 0 0 7rem; }
-      /* line 597, assets/sass/_displays-override.scss */
+      /* line 601, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_nav_menu {
         flex: 2;
         padding-right: 0; }
@@ -587,7 +591,7 @@ a:active {
 
   }*/ }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 633, assets/sass/_displays-override.scss */
+  /* line 637, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 @media only screen and (min-device-width: 80em) and (min-width: 80em), only screen and (min-device-width: 80em) and (min-width: 80em) and (min-aspect-ratio: 1 / 1) {
@@ -598,7 +602,7 @@ a:active {
     }
 
   }*/
-  /* line 649, assets/sass/_displays-override.scss */
+  /* line 653, assets/sass/_displays-override.scss */
   .home .display-posts-listing .listing-item {
     padding: 0;
     margin: 0 auto;
