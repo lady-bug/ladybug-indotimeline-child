@@ -48,19 +48,6 @@ a:active {
   color: $color-secondary-1-4-hover;
 }
 
-//TITLE
-.hentry .entry-title:after{
-	background-color: $color-primary-0;
-	left: -20px;
-  right: auto;
-}
-.widget {
-	.widgettitle,
-	.widget-title {
-	  border-left-color: $color-primary-0;
-	}
-}
-
 //TITLE LINKS
 .timeline-list .hentry .entry-title:after{
 	background-color: $color-secondary-1-4;
