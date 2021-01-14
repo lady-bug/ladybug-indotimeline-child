@@ -11,6 +11,10 @@
 }
 
 //GENERIC
+//BODY
+body {
+	background-color: transparent;
+}
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -60,9 +64,14 @@ p {
 
 //SIDEBAR WIDGETS  DISPPLAY
 .sidebar-content {
+  .sidebar-inner {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 
   .widget-area {
     margin: 0;
+    padding: 0;
   }
 
   .widget {
@@ -70,8 +79,9 @@ p {
 
     .widgettitle,
   	.widget-title {
-  	  border-left-color: $color-primary-0;
+  	  border-width: 0;
       font-size: 1.6rem;
+      padding: 0;
   	}
 
     &:last-of-type{
@@ -149,7 +159,7 @@ p {
 //FULL width
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
   width: auto;
   max-width: 1880px;
 }
@@ -165,14 +175,22 @@ p {
     &:after{
       right: auto;
       content: "";
-      top: 0;
-      position: absolute;
-      width: 4px;
-      background-color: $color-primary-0;
-      height: 100%;
-      left: -20px;
+      top: auto;
+      position: static;
+      width: 0;
+      background-color: transparent;
+      height: auto;
+      left: auto;
     }
   }
+}
+
+//HENTRY
+.hentry .post-middle{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 //TIMELINE
