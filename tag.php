@@ -1,11 +1,6 @@
 <?php
 /**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
+ * The template for displaying archive pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -14,19 +9,20 @@
 
 get_header();
 ?>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<div class="container">
-
 				<div class="main-content">
 					<header class="entry-header">
-						<?php single_post_title( '<h1 class="entry-title">', '</h1>' ); ?>
+						<?php single_tag_title( '<h1 class="entry-title">', '</h1>' ); ?>
 					</header><!-- .entry-header -->
 
 					<?php indotimeline_timeline_before() ?>
+
 						<?php
 						/* Start the Loop */
 						while ( have_posts() ) :
@@ -40,6 +36,7 @@ get_header();
 							get_template_part( 'template-parts/content', get_post_type() );
 
 						endwhile;
+
 						?>
 
 					<?php indotimeline_timeline_after() ?>
@@ -51,7 +48,6 @@ get_header();
 			<!-- /.container -->
 
 		<?php else :
-
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;

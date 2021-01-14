@@ -23,13 +23,9 @@ get_header();
 
 				<div class="main-content">
 
-					<header class="page-header timeline-header sr-only">
-						<div class="timeline-header-inner">
-							<?php
-							single_cat_title( '<h1 class="page-title">', '</h1>' );
-							?>
-						</div>
-					</header><!-- .page-header -->
+					<header class="entry-header">
+						<?php single_cat_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					</header><!-- .entry-header -->
 
 					<?php indotimeline_timeline_before() ?>
 						<?php
@@ -51,10 +47,6 @@ get_header();
 					<?php the_posts_navigation(); ?>
 				</div>
 				<!-- .main-content -->
-
-				<div class="side-content">
-					<?php get_sidebar(); ?>
-				</div>
 
 			</div>
 			<!-- /.container -->
