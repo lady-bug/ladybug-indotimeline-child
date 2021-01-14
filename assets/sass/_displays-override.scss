@@ -11,7 +11,14 @@
 }
 
 //GENERIC
-//BODY
+//TEXT SELECTION
+::-moz-selection {
+  /* Code for Firefox */
+  background: $color-secondary-2-2;
+}
+::selection {
+	background: $color-secondary-2-2;
+}
 body {
 	background-color: transparent;
 }
@@ -34,12 +41,46 @@ p {
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
+//LINKS
+a,
+a:visited,
+a:link,
+a:link:visited {
+  color: $color-secondary-1-4;
+}
+a:hover,
+a:focus,
+a:active {
+  color: $color-secondary-1-4-hover;
+}
+.post-bottom a,
+.post-bottom a:link {
+	color: $color-secondary-1-4;
+}
+.post-bottom a:hover,
+.post-bottom a:link:hover {
+  color: $color-secondary-1-4-hover;
+}
 
+.post-navigation a {
+	@extend %button;
+}
+
+.link-inherit a:hover,
+.site-footer .site-info a:hover,
+.main-navigation a:hover,
+.widget a:hover,
+.link-inherit a:link:hover,
+.site-footer .site-info a:link:hover,
+.widget a:link:hover {
+  color: $color-secondary-1-4-hover;
+}
 //HEADER
 .site-header {
   height: 5rem;
 
   .site-header-bg {
+    background-color: $color-secondary-1-1;
     background-position: center -7rem !important;
     background-size: 100% auto;
   }
@@ -57,6 +98,7 @@ p {
 
   	.site-description {
   	    font-size: 1.5rem;
+        color: $color-secondary-2-2;
   	}
 
   }
@@ -156,7 +198,7 @@ p {
   }
 }
 
-//FULL width
+//MAX WIDTH
 .container {
   margin: 0 auto;
   padding: 0;
@@ -197,10 +239,13 @@ p {
 .timeline-line {
 	width: 3px;
 }
-//... tbf
-//.timeline-2-columns .timeline-list .hentry {
-//    width: 100%;
-//}
+.timeline-loader-icon {
+	color: $color-secondary-2-0;
+}
+.timeline-header-inner {
+	background-color: $color-primary-0;
+	border-width: 2px;
+}
 
 //TIMELINE LISTING
 .timeline-list .hentry .entry-media a img{
@@ -436,11 +481,6 @@ p {
 }
 
 @include respond-to(s) {
-
-  //TIMELINE ... tbf
-  //.timeline-2-columns .timeline-list .hentry {
-  //    width: 50%;
-  //}
 
   //HEADER
   .site-header .site-header-content {
