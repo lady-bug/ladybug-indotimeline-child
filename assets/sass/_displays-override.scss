@@ -58,7 +58,7 @@ p {
   }
 }
 
-//WIDGET LIST DISPPLAY
+//SIDEBAR WIDGET LIST DISPPLAY
 .sidebar-content {
 
   .widget-area {
@@ -95,20 +95,45 @@ p {
         border-width: 0;
       }
       a,
-      a:link {
+      a:link,
+      a:visited {
         @extend %nav-link;
         font-size: 1rem;
       }
     }
 
     &.widget_nav_menu {
-      li {
+
+      .menu {
+        margin: 0;
+        width: 100%;
+      }
+      .menu-item {
         padding: 0;
+        padding: 0;
+        text-align: center;
+        border: 1px solid $color-secondary-1-4-hover;
+        margin: 0 0 2rem 0;
+
+        &:last-of-type {
+          margin: 0;
+        }
       }
       a,
-      a:link {
-        @extend %nav-link;
-        font-size: 1rem;
+      a:link,
+      a:visited {
+        font-size: 1.4rem;
+        display: block;
+        padding: 2rem;
+        text-align: center;
+        color: $color-secondary-1-4-hover;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $color-secondary-1-4-hover;
+          color: white;
+        }
       }
     }
   }

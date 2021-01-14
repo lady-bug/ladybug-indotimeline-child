@@ -24,7 +24,7 @@
   &:link,
   &:visited {
     display: block;
-    margin: 1rem;
+    margin: 1.4rem;
     position: relative;
     color: $color-text;
 
@@ -32,9 +32,8 @@
       content: "\f3d6";
       display: inline-block;
       font-family: "Ionicons";
-      left: -1rem;
+      left: -1.4rem;
       position: absolute;
-      font-size: 16px;
     }
 
     &:hover,
