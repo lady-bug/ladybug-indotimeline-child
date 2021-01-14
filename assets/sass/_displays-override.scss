@@ -138,6 +138,8 @@ a:active {
     }
 
     &.widget_recent_entries {
+      background-color: $color-secondary-1-1;
+      padding: 40px;
       ul {
         margin: 0;
       }
@@ -155,6 +157,7 @@ a:active {
     }
 
     &.widget_nav_menu {
+      padding: 40px;
 
       .menu {
         margin: 0;
@@ -205,14 +208,19 @@ a:active {
   width: auto;
   max-width: 1880px;
 }
-
+//
+.page-detail {
+  margin: 0;
+  background-color: $color-primary-1;
+  padding: 40px;
+}
 //ENTRY TITLE
 #page .entry-header {
-  padding: 20px 0 0 0;
-  position: relative;
+  position: static;
+
   .entry-title {
     padding: 0;
-    margin: 0 0 2rem 0;
+    margin-bottom: 1rem;
 
     &:after{
       right: auto;
@@ -233,6 +241,8 @@ a:active {
 	box-shadow: none;
   border-radius: 0;
   padding: 0;
+  margin: 0;
+  background-color: transparent;
 }
 
 //TIMELINE
@@ -285,6 +295,7 @@ a:active {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  padding: 20px 0;
 
   .listing-item {
     padding: 0;
@@ -337,7 +348,7 @@ a:active {
   .navbar-header-inner {
     background-color: $color-secondary-1-4;
     color: white;
-    padding: 0 20px;
+    padding: 0 40px;
   }
   .navbar-btn{
     color: white;
@@ -423,6 +434,15 @@ a:active {
 			color: $color-secondary-1-4;
 		}
 	}
+}
+
+//SITE FOOTER
+
+
+.site-footer {
+  .site-info {
+    padding: 20px 40px;
+  }
 }
 
 @include respond-to(xxs) {
@@ -541,6 +561,7 @@ a:active {
 
   //SIDEBAR WIDGET LIST DISPPLAY
   .sidebar-content {
+    padding: 40px;
     #secondary {
       display: flex;
       flex-wrap: nowrap;
@@ -559,8 +580,8 @@ a:active {
           padding: 0;
           border-width: 0;
           position: absolute;
-          top: 19rem;
-          left: 2rem;
+          top: 22rem;
+          left: 5rem;
           margin: 0;
           font-size: 3rem;
           letter-spacing: 2rem;
@@ -572,6 +593,7 @@ a:active {
       }
       .widget_nav_menu {
         flex: 2;
+        padding-right: 0;
       }
     }
   }
