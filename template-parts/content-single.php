@@ -31,25 +31,26 @@
 
 		<div class="post-middle">
 
-			<?php indotimeline_post_thumbnail();?>
+			<div class="post-overview">
 
-			<header class="entry-header link-inherit">
-				<?php
-				if ( is_singular() ) :
-					the_title( '<h1 class="entry-title">', '</h1>' );
-				else :
-					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-				endif;
+				<header class="entry-header link-inherit">
+					<?php
+					if ( is_singular() ) :
+						the_title( '<h1 class="entry-title">', '</h1>' );
+					else :
+						the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+					endif;
 
-				if ( 'post' === get_post_type() ) :
-					?>
-				<?php endif; ?>
-			</header><!-- .entry-header -->
+					if ( 'post' === get_post_type() ) :
+						?>
+					<?php endif; ?>
+				</header><!-- .entry-header -->
 
-			<div class="entry-excerpt">
-				<?php the_excerpt();?>
+				<div class="entry-excerpt">
+					<?php the_excerpt();?>
+				</div>
+				<?php indotimeline_post_thumbnail();?>
 			</div>
-
 			<div class="entry-content">
 				<?php
 

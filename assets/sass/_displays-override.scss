@@ -107,6 +107,9 @@ a:link:visited,
 
 //SIDEBAR WIDGETS  DISPPLAY
 .sidebar-content {
+  margin:0;
+  padding: 40px 0 0 0;
+
   .sidebar-inner {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -118,7 +121,7 @@ a:link:visited,
   }
 
   .widget {
-    margin: 0 0 2rem 0;
+    margin: 0;
 
     .widgettitle,
   	.widget-title {
@@ -218,6 +221,7 @@ a:link:visited,
 
 //ENTRY TITLE
 .page-detail,
+.post-overview,
 .post-middle {
   &> .entry-header {
     position: static;
@@ -562,22 +566,20 @@ a:link:visited,
   .post-inner {
     .entry-title {
       margin: 0 0 2rem 0;
-      text-align: center;
     }
     .entry-media {
       text-align: center;
       margin: 0 0 2rem 0;
       img{
-        max-width: 10rem;
+        max-width: 15rem;
         margin: auto;
+        filter: grayscale(1);
       }
     }
     .entry-excerpt {
       font-size: 1.2rem;
-      margin: 0 0 2rem 0;
+      margin: 0;
       padding: 0 0 2rem 0;
-      border-bottom: 1px solid white;
-      text-align: center;
     }
     .post-bottom {
       color: $color-text;
@@ -592,11 +594,21 @@ a:link:visited,
 }
 .posts-navigation,
 .post-navigation {
-  background-color: $color-primary-2;
+  background-color: $color-primary-3;
   margin: 0 -40px;
   padding: 1rem;
   a {
   	@extend %nav-link;
+    &,
+    &:link,
+    &:visited{
+      color: white;
+      &:hover,
+      &:focus,
+      &:active{
+        color: $color-secondary-1-1;
+      }
+    }
   }
   .nav-previous {
     width: 50%;
@@ -740,11 +752,12 @@ a:link:visited,
 
   //MAIN CONTENT
   .container .main-content {
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
   }
   //SIDEBAR WIDGET LIST DISPPLAY
   .sidebar-content {
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
+    margin-top: 0;
     #secondary {
       display: flex;
       flex-wrap: nowrap;
@@ -780,7 +793,63 @@ a:link:visited,
       }
     }
   }
+  //POST SINGLE
+  .single-post {
+    .post-middle {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 5rem;
+      grid-auto-rows: minmax(auto,20rem);
+      grid-auto-columns: 1fr;
 
+      .post-overview {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      .entry-title{
+      }
+      .entry-media {
+        margin: 1rem 0;
+      }
+      .post-bottom {
+        grid-column: 1;
+        grid-row: 2;
+        border-width: 0;
+        margin: 0;
+        padding:0 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        .cat-links,
+        .tags-links {
+          width: 100%;
+          margin: 0;
+        }
+        .cat-links {
+          margin-top: auto;
+          padding: 0.5rem 0 0 0;
+          border-top: 1px solid white;
+        }
+        .tags-links {
+          padding: 0.5rem 0 0 0;
+        }
+      }
+      .entry-content {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        overflow-y: scroll;
+        padding: 1rem;
+        margin: 0 0 40px 0;
+        background-color: white;
+      }
+
+      .entry-excerpt{
+        border-width: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+      }
+    }
+  }
   //SIDEBAR ON ELEMENTS
   /*.sidebar-right {
 
