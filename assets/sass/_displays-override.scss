@@ -298,13 +298,10 @@ a:active {
   padding: 20px 0;
 
   .listing-item {
-    padding: 0;
+    padding: 2rem 0 5rem 0;
     margin: 0 10% 0 0;
     flex: 0 0 65%;
-
-    &:last-of-type{
-      padding: 0;
-    }
+    position: relative;
 
     figure {
       height: 10rem;
@@ -338,6 +335,14 @@ a:active {
       .excerpt-more:link {
         @extend %nav-link;
       }
+    }
+
+    .post-bottom {
+      position: absolute;
+      bottom: 1.5rem;
+      width: 100%;
+      border-color: white;
+      color: $color-text;
     }
   }
 
@@ -559,10 +564,8 @@ a:active {
     padding-bottom: 0;
 
     .listing-item {
-      padding: 0;
       margin: 0 auto;
       flex: 0 0 45%;
-      padding-bottom: 50px;
     }
   }
 
@@ -655,10 +658,8 @@ a:active {
   .home .display-posts-listing{
 
     .listing-item {
-      padding: 0;
       margin: 0 auto;
       flex: 0 0 23%;
-      padding-bottom: 0;
     }
   }
 
