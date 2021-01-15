@@ -25,6 +25,7 @@ body {
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 h2 {
   font-size: 1.8rem;
@@ -33,6 +34,7 @@ h2 {
   margin-block-end: auto;
   margin-inline-start: auto;
   margin-inline-end: auto;
+  font-weight: 400;
 }
 p {
   margin-bottom: 0.5rem;
@@ -323,8 +325,8 @@ a:active {
     }
 
     h2 {
-      margin-bottom: 0.5rem;
       padding: 0;
+      margin-bottom: 0.9rem;
     }
 
     .excerpt {
