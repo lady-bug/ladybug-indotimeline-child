@@ -370,31 +370,34 @@ a:active {
   background-color: transparent; }
 
 /* line 371, assets/sass/_displays-override.scss */
+.open-main-navigation .navbar-header .navbar-header-inner, .open-main-navigation.fixed-this .navbar-header .navbar-header-inner {
+  top: 0; }
+/* line 375, assets/sass/_displays-override.scss */
 .open-main-navigation #site-navigation {
   background-color: white;
   border-color: #DD9420; }
-  /* line 375, assets/sass/_displays-override.scss */
+  /* line 379, assets/sass/_displays-override.scss */
   .open-main-navigation #site-navigation ul.menu > li {
     border-left: 2px solid white; }
-    /* line 377, assets/sass/_displays-override.scss */
+    /* line 381, assets/sass/_displays-override.scss */
     .open-main-navigation #site-navigation ul.menu > li:hover {
       border-bottom: 1px solid #f1f1f1; }
-    /* line 380, assets/sass/_displays-override.scss */
+    /* line 384, assets/sass/_displays-override.scss */
     .open-main-navigation #site-navigation ul.menu > li.current-menu-item, .open-main-navigation #site-navigation ul.menu > li.current_page_parent {
       border-left-color: #B37819; }
-  /* line 385, assets/sass/_displays-override.scss */
+  /* line 389, assets/sass/_displays-override.scss */
   .open-main-navigation #site-navigation ul.menu a,
   .open-main-navigation #site-navigation ul.menu a:link,
   .open-main-navigation #site-navigation ul.menu a:visited {
     color: #404040; }
-    /* line 390, assets/sass/_displays-override.scss */
+    /* line 394, assets/sass/_displays-override.scss */
     .open-main-navigation #site-navigation ul.menu a:hover, .open-main-navigation #site-navigation ul.menu a:focus,
     .open-main-navigation #site-navigation ul.menu a:link:hover,
     .open-main-navigation #site-navigation ul.menu a:link:focus,
     .open-main-navigation #site-navigation ul.menu a:visited:hover,
     .open-main-navigation #site-navigation ul.menu a:visited:focus {
       color: #B37819; }
-    /* line 395, assets/sass/_displays-override.scss */
+    /* line 399, assets/sass/_displays-override.scss */
     .open-main-navigation #site-navigation ul.menu a:visited, .open-main-navigation #site-navigation ul.menu a:active,
     .open-main-navigation #site-navigation ul.menu a:link:visited,
     .open-main-navigation #site-navigation ul.menu a:link:active,
@@ -402,54 +405,54 @@ a:active {
     .open-main-navigation #site-navigation ul.menu a:visited:active {
       color: #9B9B9B; }
 
-/* line 404, assets/sass/_displays-override.scss */
+/* line 408, assets/sass/_displays-override.scss */
 .social-media {
   left: 0;
   margin: 0;
   height: 4rem; }
 
-/* line 410, assets/sass/_displays-override.scss */
+/* line 414, assets/sass/_displays-override.scss */
 .social-icon {
   text-align: center;
   padding-right: 1rem; }
-  /* line 414, assets/sass/_displays-override.scss */
+  /* line 418, assets/sass/_displays-override.scss */
   .social-icon.home {
     padding: 0.7rem 0 0 1rem; }
 
-/* line 418, assets/sass/_displays-override.scss */
+/* line 422, assets/sass/_displays-override.scss */
 .social-icon-in {
   margin: 0;
   padding: 0;
   width: 2.5rem;
   height: 2.5rem; }
-  /* line 424, assets/sass/_displays-override.scss */
+  /* line 428, assets/sass/_displays-override.scss */
   .social-icon-in.linkedin, .social-icon-in.github {
     background-color: #DD9420;
     border: 1px solid white; }
-  /* line 429, assets/sass/_displays-override.scss */
+  /* line 433, assets/sass/_displays-override.scss */
   .social-icon-in.bug {
     background-color: white;
     border: 1px solid #DD9420; }
-    /* line 433, assets/sass/_displays-override.scss */
+    /* line 437, assets/sass/_displays-override.scss */
     .social-icon-in.bug i {
       color: #DD9420; }
 
-/* line 443, assets/sass/_displays-override.scss */
+/* line 447, assets/sass/_displays-override.scss */
 .site-footer .site-info {
   padding: 20px 40px; }
 
 @media only screen and (min-device-width: 40em) and (min-width: 40em), only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
-  /* line 457, assets/sass/_displays-override.scss */
+  /* line 461, assets/sass/_displays-override.scss */
   .sidebar-right .main-content {
     width: auto;
     float: none;
     margin-right: 0; }
-  /* line 463, assets/sass/_displays-override.scss */
+  /* line 467, assets/sass/_displays-override.scss */
   .sidebar-right .side-content {
     width: auto;
     float: none; }
 
-  /* line 470, assets/sass/_displays-override.scss */
+  /* line 474, assets/sass/_displays-override.scss */
   #site-navigation {
     float: right;
     position: static;
@@ -460,23 +463,23 @@ a:active {
     opacity: 1;
     box-shadow: none;
     font-size: 1rem; }
-    /* line 481, assets/sass/_displays-override.scss */
+    /* line 485, assets/sass/_displays-override.scss */
     #site-navigation ~ .float-right:not(.home) {
       display: none; }
-    /* line 485, assets/sass/_displays-override.scss */
+    /* line 489, assets/sass/_displays-override.scss */
     #site-navigation .container {
       position: static;
       width: auto;
       max-width: none;
       padding: 0;
       margin: 0; }
-      /* line 492, assets/sass/_displays-override.scss */
+      /* line 496, assets/sass/_displays-override.scss */
       #site-navigation .container .menu {
         display: table;
         margin: 0;
         padding: 0;
         height: 4rem; }
-        /* line 498, assets/sass/_displays-override.scss */
+        /* line 502, assets/sass/_displays-override.scss */
         #site-navigation .container .menu .menu-item {
           display: table-cell;
           vertical-align: middle;
@@ -484,17 +487,17 @@ a:active {
           padding: 0;
           border-width: 3px 0;
           border-color: #DD9420; }
-          /* line 506, assets/sass/_displays-override.scss */
+          /* line 510, assets/sass/_displays-override.scss */
           #site-navigation .container .menu .menu-item.current-menu-item, #site-navigation .container .menu .menu-item.current_page_parent {
             border-bottom-color: white; }
-          /* line 511, assets/sass/_displays-override.scss */
+          /* line 515, assets/sass/_displays-override.scss */
           #site-navigation .container .menu .menu-item a,
           #site-navigation .container .menu .menu-item a:link,
           #site-navigation .container .menu .menu-item a:visited {
             padding: 0.5em;
             margin: 0;
             color: white; }
-            /* line 518, assets/sass/_displays-override.scss */
+            /* line 522, assets/sass/_displays-override.scss */
             #site-navigation .container .menu .menu-item a:hover, #site-navigation .container .menu .menu-item a:focus, #site-navigation .container .menu .menu-item a:active,
             #site-navigation .container .menu .menu-item a:link:hover,
             #site-navigation .container .menu .menu-item a:link:focus,
@@ -504,50 +507,50 @@ a:active {
             #site-navigation .container .menu .menu-item a:visited:active {
               background-color: #B37819; } }
 @media only screen and (min-device-width: 48em) and (min-width: 48em), only screen and (min-device-width: 48em) and (min-width: 48em) and (min-aspect-ratio: 1 / 1) {
-  /* line 536, assets/sass/_displays-override.scss */
+  /* line 540, assets/sass/_displays-override.scss */
   .site-header .site-header-content .site-description {
     font-size: 2.5rem; }
 
-  /* line 542, assets/sass/_displays-override.scss */
+  /* line 546, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:first-of-type {
     max-width: 75px; }
-  /* line 545, assets/sass/_displays-override.scss */
+  /* line 549, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:not(:first-of-type) {
     margin-top: 1rem; }
-  /* line 548, assets/sass/_displays-override.scss */
+  /* line 552, assets/sass/_displays-override.scss */
   .first-column-75 > .wp-block-column:last-of-type {
     max-width: 30px; }
 
-  /* line 553, assets/sass/_displays-override.scss */
+  /* line 557, assets/sass/_displays-override.scss */
   .home .display-posts-listing {
     flex-wrap: wrap;
     padding-bottom: 0; }
-    /* line 557, assets/sass/_displays-override.scss */
+    /* line 561, assets/sass/_displays-override.scss */
     .home .display-posts-listing .listing-item {
       padding: 0;
       margin: 0 auto;
       flex: 0 0 45%;
       padding-bottom: 50px; }
 
-  /* line 566, assets/sass/_displays-override.scss */
+  /* line 570, assets/sass/_displays-override.scss */
   .main-content {
     padding: 40px; }
 
-  /* line 570, assets/sass/_displays-override.scss */
+  /* line 574, assets/sass/_displays-override.scss */
   .sidebar-content {
     padding: 40px; }
-    /* line 572, assets/sass/_displays-override.scss */
+    /* line 576, assets/sass/_displays-override.scss */
     .sidebar-content #secondary {
       display: flex;
       flex-wrap: nowrap; }
-      /* line 576, assets/sass/_displays-override.scss */
+      /* line 580, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget {
         margin: 0; }
-      /* line 579, assets/sass/_displays-override.scss */
+      /* line 583, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_recent_entries {
         flex: 3;
         position: relative; }
-        /* line 583, assets/sass/_displays-override.scss */
+        /* line 587, assets/sass/_displays-override.scss */
         .sidebar-content #secondary .widget_recent_entries .widget-title {
           transform: rotate(-90deg);
           transform-origin: left;
@@ -559,10 +562,10 @@ a:active {
           margin: 0;
           font-size: 3rem;
           letter-spacing: 2rem; }
-        /* line 597, assets/sass/_displays-override.scss */
+        /* line 601, assets/sass/_displays-override.scss */
         .sidebar-content #secondary .widget_recent_entries ul {
           margin: 0 0 0 7rem; }
-      /* line 601, assets/sass/_displays-override.scss */
+      /* line 605, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_nav_menu {
         flex: 2;
         padding-right: 0; }
@@ -591,7 +594,7 @@ a:active {
 
   }*/ }
 @media only screen and (min-device-width: 64em) and (min-width: 64em), only screen and (min-device-width: 64em) and (min-width: 64em) and (min-aspect-ratio: 1 / 1) {
-  /* line 637, assets/sass/_displays-override.scss */
+  /* line 641, assets/sass/_displays-override.scss */
   .site-header {
     height: 10rem; } }
 @media only screen and (min-device-width: 80em) and (min-width: 80em), only screen and (min-device-width: 80em) and (min-width: 80em) and (min-aspect-ratio: 1 / 1) {
@@ -602,7 +605,7 @@ a:active {
     }
 
   }*/
-  /* line 653, assets/sass/_displays-override.scss */
+  /* line 657, assets/sass/_displays-override.scss */
   .home .display-posts-listing .listing-item {
     padding: 0;
     margin: 0 auto;

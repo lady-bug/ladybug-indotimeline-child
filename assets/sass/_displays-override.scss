@@ -367,7 +367,11 @@ a:active {
 #site-navigation {
     background-color: transparent;
 }
-.open-main-navigation{
+.open-main-navigation {
+  .navbar-header .navbar-header-inner,
+  &.fixed-this .navbar-header .navbar-header-inner{
+    top: 0;
+  }
   #site-navigation {
       background-color: white;
       border-color: $color-secondary-1-4;
