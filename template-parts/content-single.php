@@ -31,6 +31,8 @@
 
 		<div class="post-middle">
 
+			<?php indotimeline_post_thumbnail();?>
+
 			<header class="entry-header link-inherit">
 				<?php
 				if ( is_singular() ) :
@@ -44,9 +46,9 @@
 				<?php endif; ?>
 			</header><!-- .entry-header -->
 
-			<?php //indotimeline_post_thumbnail();
-
-			?>
+			<div class="entry-excerpt">
+				<?php the_excerpt();?>
+			</div>
 
 			<div class="entry-content">
 				<?php

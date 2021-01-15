@@ -21,12 +21,16 @@
 %nav-link {
 
   &,
+  &:visited,
   &:link,
-  &:visited {
+  &:link:visited {
     display: block;
     margin: 1.4rem;
+    padding: 0;
     position: relative;
     color: $color-text;
+    background-color: transparent;
+    border-radius: 0;
 
     &:before {
       content: "\f3d6";
@@ -40,6 +44,7 @@
     &:focus,
     &:active {
       color: $color-secondary-1-4-hover;
+      background-color: transparent;
     }
   }
 }
