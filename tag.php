@@ -16,9 +16,9 @@ get_header();
 		<?php if ( have_posts() ) : ?>
 
 			<div class="container">
-				<div class="main-content">
+				<div class="main-content"><div class="page-detail">
 					<header class="entry-header">
-						<?php single_tag_title( '<h1 class="entry-title">', '</h1>' ); ?>
+						<?php single_tag_title( '<h1 class="entry-title">Tag: ', '</h1>' ); ?>
 					</header><!-- .entry-header -->
 
 					<?php indotimeline_timeline_before() ?>
@@ -41,7 +41,7 @@ get_header();
 
 					<?php indotimeline_timeline_after() ?>
 					<?php the_posts_navigation(); ?>
-				</div>
+				</div></div>
 				<!-- .main-content -->
 
 			</div>

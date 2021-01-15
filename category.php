@@ -21,10 +21,10 @@ get_header();
 
 			<div class="container">
 
-				<div class="main-content">
+				<div class="main-content"><div class="page-detail">
 
 					<header class="entry-header">
-						<?php single_cat_title( '<h1 class="entry-title">', '</h1>' ); ?>
+						<?php single_cat_title( '<h1 class="entry-title">Category: ', '</h1>' ); ?>
 					</header><!-- .entry-header -->
 
 					<?php indotimeline_timeline_before() ?>
@@ -45,7 +45,7 @@ get_header();
 
 					<?php indotimeline_timeline_after() ?>
 					<?php the_posts_navigation(); ?>
-				</div>
+				</div></div>
 				<!-- .main-content -->
 
 			</div>

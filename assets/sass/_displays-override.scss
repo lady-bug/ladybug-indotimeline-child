@@ -47,32 +47,27 @@ p {
 a,
 a:visited,
 a:link,
-a:link:visited {
-  color: $color-secondary-1-4;
-}
-a:hover,
-a:focus,
-a:active {
-  color: $color-secondary-1-4-hover;
-}
+a:link:visited,
 .post-bottom a,
-.post-bottom a:link {
-	color: $color-secondary-1-4;
-}
-.post-bottom a:hover,
-.post-bottom a:link:hover {
-  color: $color-secondary-1-4-hover;
+.post-bottom a:visited,
+.post-bottom a:link,
+.post-bottom a:link:visited  {
+  color: $color-secondary-1-4;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-secondary-1-4-hover;
+  }
 }
 
 .post-navigation a {
 	@extend %button;
 }
 
-.link-inherit a:hover,
 .site-footer .site-info a:hover,
 .main-navigation a:hover,
 .widget a:hover,
-.link-inherit a:link:hover,
 .site-footer .site-info a:link:hover,
 .widget a:link:hover {
   color: $color-secondary-1-4-hover;
@@ -209,20 +204,21 @@ a:active {
   padding: 0;
   width: auto;
   max-width: 1880px;
+
+  .page-detail {
+    margin: 0;
+    background-color: $color-primary-1;
+    padding: 40px;
+  }
 }
-//
-.page-detail {
-  margin: 0;
-  background-color: $color-primary-1;
-  padding: 40px;
-}
+
 //ENTRY TITLE
 #page .entry-header {
   position: static;
 
   .entry-title {
     padding: 0;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0;
 
     &:after{
       right: auto;
@@ -249,8 +245,19 @@ a:active {
 
 //TIMELINE
 .timeline-line {
-	width: 3px;
+  width: 3px;
+  top: 0 !important;
+  position: absolute !important;
+  left: 7px !important;
+  background-color: $color-primary-4;
 }
+
+@include respond-to(xs1) {
+  .timeline-line {
+    left: 50% !important;
+  }
+}
+
 .timeline-loader-icon {
 	color: $color-secondary-2-0;
 }
@@ -260,12 +267,72 @@ a:active {
 }
 
 //TIMELINE LISTING
-.timeline-list .hentry .entry-media a img{
-	text-align: center;
-	margin: 0 auto;
-  max-height: 250px;
-  height: auto;
-  width: auto;
+.timeline-list {
+  .hentry {
+    .post-inner {
+      background-color: $color-primary-4;
+      padding: 1rem;
+      color: white;
+    }
+    .post-middle:before {
+      border-right-color: $color-primary-4 !important;
+      left: -2.3rem !important;
+    }
+    .entry-media {
+      margin: 0;
+      padding: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      overflow: auto;
+      a,
+      a:link, {
+        height: 10rem;
+        margin: 0 0 1rem 0;
+        overflow: hidden;
+        position: relative;
+        img {
+          filter: grayscale(1);
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+          width: 100%;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          img {
+            filter :grayscale(0);
+          }
+        }
+      }
+    }
+    .entry-header {
+      a,
+      a:visited,
+      a:link,
+      a:link:visited {
+        color: white;
+        display: block;
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: $color-secondary-1-1;
+        }
+      }
+    }
+    .post-bottom {
+      margin: 2rem 0 0 0;
+      padding: 1rem;
+      background-color: $color-primary-1;
+      border-width: 0;
+      color: $color-text;
+    }
+  }
 }
 
 //COLUMNS
@@ -463,6 +530,7 @@ a:active {
 
 @include respond-to(xs) {
 
+  //SIDEBAR
   .sidebar-right {
 
     .main-content{
@@ -572,7 +640,7 @@ a:active {
   }
 
   //MAIN CONTENT
-  .main-content {
+  .container .main-content {
     padding: 40px;
   }
   //SIDEBAR WIDGET LIST DISPPLAY
