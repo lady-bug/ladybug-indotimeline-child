@@ -551,7 +551,7 @@ a:active {
         margin: 0; }
       /* line 586, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_recent_entries {
-        flex: 3;
+        flex: 1;
         position: relative; }
         /* line 590, assets/sass/_displays-override.scss */
         .sidebar-content #secondary .widget_recent_entries .widget-title {
@@ -570,7 +570,7 @@ a:active {
           margin: 0 0 0 7rem; }
       /* line 608, assets/sass/_displays-override.scss */
       .sidebar-content #secondary .widget_nav_menu {
-        flex: 2;
+        flex: 1;
         padding-right: 0; }
 
   /*.sidebar-right {

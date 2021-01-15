@@ -584,7 +584,7 @@ a:active {
         margin: 0;
       }
       .widget_recent_entries {
-        flex: 3;
+        flex: 1;
         position: relative;
 
         .widget-title {
@@ -606,7 +606,7 @@ a:active {
         }
       }
       .widget_nav_menu {
-        flex: 2;
+        flex: 1;
         padding-right: 0;
       }
     }
