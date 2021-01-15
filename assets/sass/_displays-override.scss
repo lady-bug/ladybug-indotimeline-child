@@ -232,6 +232,17 @@ a:link:visited,
     }
   }
 }
+.blog,
+.tag,
+.category {
+  #page {
+    .entry-header .entry-title{
+      background-color: $color-primary-2;
+      text-align: center;
+      padding:1rem 0;
+    }
+  }
+}
 
 //HENTRY
 .hentry .post-middle{
@@ -244,12 +255,22 @@ a:link:visited,
 }
 
 //TIMELINE
+.timeline {
+  max-width: 93rem;
+  margin: auto;
+}
 .timeline-line {
   width: 3px;
   top: 0 !important;
   position: absolute !important;
   left: 7px !important;
   background-color: $color-primary-4;
+}
+.itl-ready .timeline-line {
+  bottom: 0;
+}
+.timeline-loader {
+  bottom: -10rem;
 }
 
 @include respond-to(xs1) {
@@ -277,6 +298,14 @@ a:link:visited,
     .post-middle:before {
       border-right-color: $color-primary-4 !important;
       left: -2.3rem !important;
+      right: auto !important;
+    }
+    &.is-left .post-middle:before {
+      border-right-color: transparent !important;
+      border-left-color: $color-primary-4 !important;
+      left: auto !important;
+      right: -2.25rem !important;
+
     }
     .entry-media {
       margin: 0;
@@ -286,20 +315,21 @@ a:link:visited,
       overflow: auto;
       a,
       a:link, {
-        height: 10rem;
-        margin: 0 0 1rem 0;
-        overflow: hidden;
-        position: relative;
+        //height: 10rem;
+        margin: 0 0 2rem 0;
+        //overflow: hidden;
+        //position: relative;
+        text-align: center;
         img {
           filter: grayscale(1);
           display: inline-block;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
+          //position: absolute;
+          //top: 0;
+          //bottom: 0;
+          //right: 0;
+          //left: 0;
           margin: auto;
-          width: 100%;
+          //width: 100%;
         }
         &:hover,
         &:focus,
