@@ -405,22 +405,7 @@ a:link:visited,
     position: relative;
 
     figure {
-      height: 10rem;
       margin: 0 0 1rem 0;
-      overflow: hidden;
-      position: relative;
-
-      img {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        width: 100%;
-      }
-
     }
 
     h2 {
