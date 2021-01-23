@@ -326,21 +326,12 @@ a:link:visited,
       overflow: auto;
       a,
       a:link, {
-        //height: 10rem;
         margin: 0 0 2rem 0;
-        //overflow: hidden;
-        //position: relative;
         text-align: center;
         img {
           filter: grayscale(1);
           display: inline-block;
-          //position: absolute;
-          //top: 0;
-          //bottom: 0;
-          //right: 0;
-          //left: 0;
           margin: auto;
-          //width: 100%;
         }
         &:hover,
         &:focus,
@@ -850,31 +841,6 @@ a:link:visited,
       }
     }
   }
-  //SIDEBAR ON ELEMENTS
-  /*.sidebar-right {
-
-    .main-content{
-      width: 65.81197%;
-      float: left;
-      margin-right: 2.5641%;
-    }
-
-    .side-content {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 3.3rem;
-      width: 31.62393%;
-      max-width: 400px;
-      float: left;
-      margin-right: 0;
-    }
-
-    .widget-area {
-      margin-right: 0;
-    }
-
-  }*/
-
 }
 
 @include respond-to(xm) {
@@ -885,13 +851,6 @@ a:link:visited,
 
 }
 @include respond-to(l) {
-  /*.sidebar-right {
-
-    .main-content{
-      width: calc(100% - 2.5641% - 400px);
-    }
-
-  }*/
 
   .home .display-posts-listing{
 
