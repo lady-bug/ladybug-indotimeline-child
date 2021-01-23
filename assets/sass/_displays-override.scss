@@ -544,10 +544,11 @@ a:link:visited,
       margin: 0 0 2rem 0;
     }
     .entry-media {
+      display: none;
       text-align: center;
       margin: 0 0 2rem 0;
+
       img{
-        max-width: 15rem;
         margin: auto;
         filter: grayscale(1);
       }
@@ -774,7 +775,7 @@ a:link:visited,
     .post-middle {
       display: grid;
       grid-template-columns: repeat(3,1fr);
-      gap: 5rem;
+      gap: 2rem;
       grid-auto-rows: minmax(auto,20rem);
       grid-auto-columns: 1fr;
 
@@ -782,9 +783,8 @@ a:link:visited,
         grid-column: 1;
         grid-row: 1;
       }
-      .entry-title{
-      }
       .entry-media {
+        display: block;
         margin: 1rem 0;
       }
       .post-bottom {
@@ -832,6 +832,12 @@ a:link:visited,
   //HEADER
   .site-header {
     height: 10rem;;
+  }
+  //POST SINGLE
+  .single-post {
+    .post-middle {
+      gap: 5rem;
+    }
   }
 
 }
